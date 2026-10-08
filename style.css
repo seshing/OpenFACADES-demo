@@ -40,9 +40,9 @@
 summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
 .project-credit{position:absolute;left:50%;right:auto;transform:translateX(-50%);bottom:30px;z-index:6;display:flex;align-items:center;gap:8px;color:var(--muted);font-size:11px;white-space:nowrap;text-shadow:0 1px 5px #000}
 .project-credit a{color:var(--muted)}.project-credit a:hover{color:var(--ink)}
-.maplibregl-ctrl-bottom-right{bottom:64px}
+.maplibregl-ctrl-bottom-right{bottom:16px}
 .inspector{max-height:calc(100svh - 156px)}
-@media(max-width:700px){.distribution-picker{width:166px}.project-credit{bottom:28px;font-size:10px;gap:6px}.inspector{max-height:calc(100svh - 144px)}}
+@media(max-width:700px){.maplibregl-ctrl-bottom-right{bottom:14px}.distribution-picker{width:166px}.project-credit{bottom:28px;font-size:10px;gap:6px}.inspector{max-height:calc(100svh - 144px)}}
 
 #globe{background:#080808}
 
