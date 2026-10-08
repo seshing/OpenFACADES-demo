@@ -1,0 +1,28 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OpenFACADES · Explorer</title><meta name="description" content="Explore real street views, detected buildings, and visually inferred architectural attributes.">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231e625b'/%3E%3Cpath d='M8 25V9l8-4 8 4v16M12 12h3m3 0h3m-9 5h3m3 0h3m-9 5h3m3 0h3' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="vendor/maplibre-gl.css"><link rel="stylesheet" href="style.css?v=21"><script src="vendor/maplibre-gl.js" defer></script><script src="app.js?v=21" defer></script>
+</head><body>
+<main>
+<div class="site-logo"><img src="assets/logo.png" alt="OpenFACADES · Urban Analytics Lab"></div>
+<section id="world-view" class="world-view">
+  <div id="globe" role="region" aria-label="Interactive globe with sample cities"></div>
+  <div class="city-picker"><button id="choose-city" class="glass-button" aria-expanded="false" aria-controls="city-list">Explore cities <span>⌄</span></button><div id="city-list" class="city-list glass" aria-label="Cities" hidden></div></div>
+</section>
+<section id="city-view" class="city-view" hidden>
+  <div id="city-map" role="region" aria-label="Street-view points, building footprints, and viewing directions"></div>
+  <svg id="sightline-pulses" class="sightline-pulses" aria-hidden="true"></svg>
+  <div class="city-controls glass"><button id="back" aria-label="Back to all cities">←</button><span id="city-title"></span></div>
+  <div class="type-controls"><details id="distribution-picker" class="distribution-picker"><summary id="map-attribute" class="glass-button" aria-label="Building distribution"><span id="distribution-label">Map view</span><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></summary><div class="distribution-options glass"><button type="button" data-attribute="" aria-pressed="true">Map view</button><button type="button" data-attribute="type" aria-pressed="false">Building type</button><button type="button" data-attribute="mixUsed" aria-pressed="false">Mix-used</button><button type="button" data-attribute="age" aria-pressed="false">Age</button><button type="button" data-attribute="floors" aria-pressed="false">Floor</button><button type="button" data-attribute="materialFirst" aria-pressed="false">Material · First</button><button type="button" data-attribute="materialSecondary" aria-pressed="false">Material · Secondary</button></div></details><div id="type-legend" class="type-legend glass" hidden></div></div>
+  <p id="city-notice" class="city-notice glass" hidden>Mapillary imagery is currently unavailable for this sample area.</p>
+  <section id="inspector" class="inspector glass" aria-label="Street view and building details" hidden>
+    <div class="inspector-controls"><div><button id="return-panorama" aria-label="Return to panorama" hidden>←</button><span id="panorama-title"></span></div><button id="close-inspector" aria-label="Close image window">×</button></div>
+    <div id="panorama-view"><div id="panorama-wrap" class="panorama-wrap"></div>
+    <div class="panorama-controls"><div id="image-credit" class="image-credit"></div><div class="detection-action"><button id="detect" class="primary" disabled>Detect buildings</button></div></div>
+    </div><section id="building-panel" class="building-panel" hidden></section>
+  </section>
+</section>
+<footer class="project-credit"><a href="https://seshing.github.io/" target="_blank" rel="noopener">Xiucheng Liang</a><span>·</span><span>OpenFACADES</span><span>·</span><a href="https://github.com/seshing/OpenFACADES" target="_blank" rel="noopener">GitHub ↗</a></footer>
+<p id="load-error" class="load-error glass" role="alert" hidden></p>
+</main></body></html>
