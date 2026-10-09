@@ -179,17 +179,33 @@ globe.once('load',()=>{
   globeReady=true;
   const cities={type:'FeatureCollection',features:data.cities.map(c=>({type:'Feature',properties:{id:c.id,name:c.name,labelLeft:['amsterdam','helsinki','houston'].includes(c.id)},geometry:{type:'Point',coordinates:[(c.bbox[0]+c.bbox[2])/2,(c.bbox[1]+c.bbox[3])/2]}}))};
   globe.addSource('cities',{type:'geojson',data:cities,promoteId:'id'});
-  globe.addLayer({id:'city-glow',type:'circle',source:'cities',paint:{'circle-radius':['case',['boolean',['feature-state','hover'],false],24,18],'circle-color':'#77decc','circle-opacity':['case',['boolean',['feature-state','hover'],false],.3,.15],'circle-blur':.5,'circle-pitch-alignment':'map'}});
-  globe.addLayer({id:'city-points',type:'circle',source:'cities',paint:{'circle-radius':['case',['boolean',['feature-state','hover'],false],7,5],'circle-color':['case',['boolean',['feature-state','hover'],false],'#b5ffeb','#77decc'],'circle-stroke-width':0,'circle-pitch-alignment':'map'}});
-  globe.addLayer({id:'city-labels',type:'symbol',source:'cities',layout:{'text-field':['get','name'],'text-font':['Noto Sans Regular'],'text-size':12,'text-offset':['case',['get','labelLeft'],['literal',[-.8,0]],['literal',[.8,0]]],'text-anchor':['case',['get','labelLeft'],'right','left'],'text-allow-overlap':true,'text-ignore-placement':true},paint:{'text-color':['case',['boolean',['feature-state','hover'],false],'#effff9','#bbe9dd'],'text-halo-width':0}});
-  let hoveredCity=null;
-  const clearCityHover=()=>{
-    if(hoveredCity!==null)globe.setFeatureState({source:'cities',id:hoveredCity},{hover:false});
-    hoveredCity=null;globe.getCanvas().style.cursor='';
+  globe.addLayer({id:'city-glow',type:'circle',source:'cities',paint:{'circle-radius':['interpolate',['linear'],['coalesce',['feature-state','hover'],0],0,18,1,24],'circle-color':'#77decc','circle-opacity':['interpolate',['linear'],['coalesce',['feature-state','hover'],0],0,.15,1,.3],'circle-blur':.5,'circle-pitch-alignment':'map'}});
+  globe.addLayer({id:'city-points',type:'circle',source:'cities',paint:{'circle-radius':['interpolate',['linear'],['coalesce',['feature-state','hover'],0],0,5,1,7],'circle-color':['interpolate',['linear'],['coalesce',['feature-state','hover'],0],0,'#77decc',1,'#b5ffeb'],'circle-stroke-width':0,'circle-pitch-alignment':'map'}});
+  globe.addLayer({id:'city-labels',type:'symbol',source:'cities',layout:{'text-field':['get','name'],'text-font':['Noto Sans Regular'],'text-size':12,'text-offset':['case',['get','labelLeft'],['literal',[-.8,0]],['literal',[.8,0]]],'text-anchor':['case',['get','labelLeft'],'right','left'],'text-allow-overlap':true,'text-ignore-placement':true},paint:{'text-color':['interpolate',['linear'],['coalesce',['feature-state','hover'],0],0,'#bbe9dd',1,'#effff9'],'text-halo-width':0}});
+  let hoveredCity=null,hoverFrame=null,lastHoverTime=0;
+  const hoverLevels=new Map();
+  const animateCityHover=time=>{
+    const step=1-Math.exp(-Math.min(time-lastHoverTime,64)/220);
+    lastHoverTime=time;
+    for(const [id,level] of hoverLevels){
+      const target=id===hoveredCity?1:0;
+      const next=level+(target-level)*step;
+      const settled=Math.abs(target-next)<.001;
+      globe.setFeatureState({source:'cities',id},{hover:settled?target:next});
+      if(settled)hoverLevels.delete(id);else hoverLevels.set(id,next);
+    }
+    hoverFrame=hoverLevels.size?requestAnimationFrame(animateCityHover):null;
   };
+  const setCityHover=id=>{
+    if(id===hoveredCity)return;
+    if(hoveredCity!==null&&!hoverLevels.has(hoveredCity))hoverLevels.set(hoveredCity,1);
+    if(id!==null&&!hoverLevels.has(id))hoverLevels.set(id,0);
+    hoveredCity=id;
+    if(hoverFrame===null){lastHoverTime=performance.now();hoverFrame=requestAnimationFrame(animateCityHover);}
+  };
+  const clearCityHover=()=>{setCityHover(null);globe.getCanvas().style.cursor='';};
   const highlightCity=event=>{
-    const id=event.features[0].properties.id;
-    if(id!==hoveredCity){clearCityHover();hoveredCity=id;globe.setFeatureState({source:'cities',id},{hover:true});}
+    setCityHover(event.features[0].properties.id);
     globe.getCanvas().style.cursor='pointer';globePauseUntil=performance.now()+8000;
   };
   for(const layer of ['city-glow','city-labels']){
