@@ -178,15 +178,27 @@ globe.on('style.load',()=>{
 globe.once('load',()=>{
   globeReady=true;
   const cities={type:'FeatureCollection',features:data.cities.map(c=>({type:'Feature',properties:{id:c.id,name:c.name,labelLeft:['amsterdam','helsinki','houston'].includes(c.id)},geometry:{type:'Point',coordinates:[(c.bbox[0]+c.bbox[2])/2,(c.bbox[1]+c.bbox[3])/2]}}))};
-  globe.addSource('cities',{type:'geojson',data:cities});
-  globe.addLayer({id:'city-glow',type:'circle',source:'cities',paint:{'circle-radius':18,'circle-color':'#77decc','circle-opacity':.15,'circle-blur':.5,'circle-pitch-alignment':'map'}});
-  globe.addLayer({id:'city-points',type:'circle',source:'cities',paint:{'circle-radius':5,'circle-color':'#77decc','circle-stroke-width':0,'circle-pitch-alignment':'map'}});
-  globe.addLayer({id:'city-labels',type:'symbol',source:'cities',layout:{'text-field':['get','name'],'text-font':['Noto Sans Regular'],'text-size':12,'text-offset':['case',['get','labelLeft'],['literal',[-.8,0]],['literal',[.8,0]]],'text-anchor':['case',['get','labelLeft'],'right','left'],'text-allow-overlap':true,'text-ignore-placement':true},paint:{'text-color':'#bbe9dd','text-halo-width':0}});
-  globe.on('click','city-labels',event=>selectCity(event.features[0].properties.id).catch(showError));
-  globe.on('click','city-glow',event=>selectCity(event.features[0].properties.id).catch(showError));
-  const tooltip=new maplibregl.Popup({closeButton:false,closeOnClick:false,offset:12});
-  globe.on('mouseenter','city-glow',event=>{globe.getCanvas().style.cursor='pointer';const feature=event.features[0];tooltip.setLngLat(feature.geometry.coordinates).setText(feature.properties.name).addTo(globe);});
-  globe.on('mouseleave','city-glow',()=>{globe.getCanvas().style.cursor='';tooltip.remove();});
+  globe.addSource('cities',{type:'geojson',data:cities,promoteId:'id'});
+  globe.addLayer({id:'city-glow',type:'circle',source:'cities',paint:{'circle-radius':['case',['boolean',['feature-state','hover'],false],24,18],'circle-color':'#77decc','circle-opacity':['case',['boolean',['feature-state','hover'],false],.3,.15],'circle-blur':.5,'circle-pitch-alignment':'map'}});
+  globe.addLayer({id:'city-points',type:'circle',source:'cities',paint:{'circle-radius':['case',['boolean',['feature-state','hover'],false],7,5],'circle-color':['case',['boolean',['feature-state','hover'],false],'#b5ffeb','#77decc'],'circle-stroke-width':0,'circle-pitch-alignment':'map'}});
+  globe.addLayer({id:'city-labels',type:'symbol',source:'cities',layout:{'text-field':['get','name'],'text-font':['Noto Sans Regular'],'text-size':12,'text-offset':['case',['get','labelLeft'],['literal',[-.8,0]],['literal',[.8,0]]],'text-anchor':['case',['get','labelLeft'],'right','left'],'text-allow-overlap':true,'text-ignore-placement':true},paint:{'text-color':['case',['boolean',['feature-state','hover'],false],'#effff9','#bbe9dd'],'text-halo-width':0}});
+  let hoveredCity=null;
+  const clearCityHover=()=>{
+    if(hoveredCity!==null)globe.setFeatureState({source:'cities',id:hoveredCity},{hover:false});
+    hoveredCity=null;globe.getCanvas().style.cursor='';
+  };
+  const highlightCity=event=>{
+    const id=event.features[0].properties.id;
+    if(id!==hoveredCity){clearCityHover();hoveredCity=id;globe.setFeatureState({source:'cities',id},{hover:true});}
+    globe.getCanvas().style.cursor='pointer';globePauseUntil=performance.now()+8000;
+  };
+  for(const layer of ['city-glow','city-labels']){
+    globe.on('mousemove',layer,highlightCity);
+    globe.on('mouseleave',layer,event=>{
+      if(!globe.queryRenderedFeatures(event.point,{layers:['city-glow','city-labels']}).length)clearCityHover();
+    });
+    globe.on('click',layer,event=>{clearCityHover();selectCity(event.features[0].properties.id).catch(showError);});
+  }
 });
 document.querySelectorAll('[data-attribute]').forEach(button=>button.onclick=()=>{
   mapAttribute=button.dataset.attribute;$('distribution-label').textContent=button.textContent;
