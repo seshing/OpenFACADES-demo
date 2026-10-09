@@ -19,22 +19,23 @@ await cityMapReady;if(request!==cityRequest)return;cityMap.resize();cityMap.fitB
 function resetPanorama(){$('panorama-view').hidden=false;$('return-panorama').hidden=true;$('panorama-wrap').replaceChildren();$('image-credit').replaceChildren();$('detect').disabled=true;$('detect').textContent='Detect buildings';$('building-panel').hidden=true;$('building-panel').replaceChildren();}
 function focusStreetView(duration=400){
   if(!pano)return;
-  const right=$('inspector').offsetWidth+(innerWidth<=700?24:48);
+  const portrait=matchMedia('(max-width:700px) and (orientation:portrait)').matches;
+  const padding=portrait
+    ? {left:24,right:24,top:90,bottom:Math.max($('inspector').offsetHeight,innerHeight/2)+80}
+    : {left:24,right:$('inspector').offsetWidth+48,top:90,bottom:48};
   const bounds=new maplibregl.LngLatBounds();
-  for(const point of [...city.panoramas.map(p=>p.location),...pano.buildings.map(b=>b.location)])bounds.extend(point);
-  cityMap.fitBounds(bounds,{padding:{left:24,right,top:90,bottom:48},maxZoom:18,duration});
+  for(const point of [pano.location,...pano.buildings.map(b=>b.location)])bounds.extend(point);
+  const camera=cityMap.cameraForBounds(bounds,{padding,maxZoom:18});
+  cityMap.easeTo({...camera,padding:{left:0,right:0,top:0,bottom:0},duration});
 }
 function openInspector(){
-  const wasHidden=$('inspector').hidden;
   $('inspector').hidden=false;$('inspector').scrollTop=0;
-  if(wasHidden)focusStreetView();
 }
 function closeInspector(){
   $('inspector').hidden=true;
-  if(cityMap)cityMap.easeTo({padding:{left:0,right:0,top:0,bottom:0},duration:400});
 }
 window.addEventListener('resize',()=>{if(!$('inspector').hidden)focusStreetView(0);});
-function selectPanorama(id){const selected=city.panoramas.find(p=>p.id===id);if(!selected)throw Error('Unknown street view');pano=selected;building=null;detected=false;resetPanorama();$('panorama-title').textContent='Street view';openInspector();focusStreetView();$('panorama-wrap').innerHTML=`<img src="${escapeHtml(pano.image)}" alt="Original Mapillary panorama in ${escapeHtml(city.name)}" width="2048" height="1024">`;$('image-credit').innerHTML=`<span>© ${escapeHtml(pano.creator)} / Mapillary · ${escapeHtml(pano.capturedAt)}</span><a href="${escapeHtml(pano.sourceUrl)}" target="_blank" rel="noopener">View source ↗</a>`;$('detect').disabled=pano.status!=='ready'||!pano.buildings.length;document.querySelectorAll('[data-pid]').forEach(el=>{el.classList.toggle('active',el.dataset.pid===pano.id);el.classList.toggle('selected',el.dataset.pid===pano.id);});cityMap.getSource('sightlines').setData(emptyCollection());$('sightline-pulses').replaceChildren();clearBuildingMarkers();setSelectedFootprint();}
+function selectPanorama(id){const selected=city.panoramas.find(p=>p.id===id);if(!selected)throw Error('Unknown street view');pano=selected;building=null;detected=false;resetPanorama();$('panorama-title').textContent='Street view';openInspector();$('panorama-wrap').innerHTML=`<img src="${escapeHtml(pano.image)}" alt="Original Mapillary panorama in ${escapeHtml(city.name)}" width="2048" height="1024">`;$('image-credit').innerHTML=`<span>© ${escapeHtml(pano.creator)} / Mapillary · ${escapeHtml(pano.capturedAt)}</span><a href="${escapeHtml(pano.sourceUrl)}" target="_blank" rel="noopener">View source ↗</a>`;$('detect').disabled=pano.status!=='ready'||!pano.buildings.length;document.querySelectorAll('[data-pid]').forEach(el=>{el.classList.toggle('active',el.dataset.pid===pano.id);el.classList.toggle('selected',el.dataset.pid===pano.id);});cityMap.getSource('sightlines').setData(emptyCollection());$('sightline-pulses').replaceChildren();clearBuildingMarkers();setSelectedFootprint();focusStreetView();}
 function clearBuildingMarkers(){buildingMarkers.forEach(m=>m.remove());buildingMarkers=[];}
 function revealDetections(){if(!pano||pano.status!=='ready'||!pano.buildings.length)return;detected=true;$('detect').textContent='Original';renderBoxes();renderLines();clearBuildingMarkers();buildingMarkers=pano.buildings.map((b,i)=>{const btn=document.createElement('button');btn.className='building-marker';btn.textContent=i+1;btn.title=`Building ${i+1}`;btn.dataset.bid=b.id;btn.setAttribute('aria-label',`Select building ${i+1}`);btn.onclick=()=>selectBuilding(b.id);return new maplibregl.Marker({element:btn}).setLngLat(b.location).addTo(cityMap);});$('building-panel').hidden=true;}
 

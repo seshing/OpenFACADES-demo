@@ -50,3 +50,5 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
 #city-map .view-marker,#city-map .building-marker{z-index:3}
 
 .site-logo{position:absolute;top:28px;right:28px;z-index:6;width:min(280px,32vw);pointer-events:none;mix-blend-mode:screen}.site-logo img{display:block;width:100%;height:auto;filter:invert(1);opacity:.85}@media(max-width:700px){.site-logo{top:18px;right:16px;width:180px;max-width:42vw}}
+
+@media(max-width:700px) and (orientation:portrait){.inspector{left:12px;right:12px;top:auto;bottom:64px;width:calc(100% - 24px);max-height:50svh;transform:none}.building-image img{height:210px}.attribute-grid{grid-template-columns:1fr 1fr}}
