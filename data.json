@@ -13,124 +13,6 @@
       ],
       "panoramas": [
         {
-          "id": "334013848398681",
-          "name": "Street view 01",
-          "location": [
-            8.5532939171759,
-            47.373747276859
-          ],
-          "heading": 152.93047458411,
-          "capturedAt": "2021-07-31",
-          "creator": "beat",
-          "image": "assets/zurich/334013848398681.jpg",
-          "sourceUrl": "https://www.mapillary.com/app/?pKey=334013848398681&focus=photo",
-          "buildings": [
-            {
-              "id": "277071803",
-              "image": "assets/zurich/pid_334013848398681_bdid_277071803.png",
-              "box": [
-                0.853515625,
-                0.3525390625,
-                0.201171875,
-                0.390625,
-                0.8185782432556152
-              ],
-              "location": [
-                8.553158175548695,
-                47.37374346509948
-              ],
-              "attributes": {
-                "type": "Residential",
-                "material": {
-                  "first": "Render",
-                  "secondary": "Stone"
-                },
-                "floors": "5",
-                "age": "1900\u20131919",
-                "caption": "A corner building with a pale rendered facade, curved balconies, shuttered windows and a heavier ground-floor base. Its upper floors appear residential.",
-                "ageBasis": "Visual estimate",
-                "ageConfidence": "Low",
-                "mixUsed": "Yes",
-                "floorsBasis": "Visual estimate",
-                "floorsConfidence": "Medium",
-                "source": "GPT visual inference \u00b7 image reviewed",
-                "verified": false
-              },
-              "source": "osm",
-              "area_m2": 142.33482442942625
-            },
-            {
-              "id": "125384092",
-              "image": "assets/zurich/pid_334013848398681_bdid_125384092.png",
-              "box": [
-                0.078125,
-                0.40869140625,
-                0.1181640625,
-                0.1279296875,
-                0.823069155216217
-              ],
-              "location": [
-                8.553400550739177,
-                47.373961048212855
-              ],
-              "attributes": {
-                "type": "Residential",
-                "material": {
-                  "first": "Render",
-                  "secondary": "None"
-                },
-                "floors": "3",
-                "age": "1880\u20131899",
-                "caption": "A low-rise yellow building with regularly spaced windows and a pitched roof with dormers. Trees obscure part of the facade.",
-                "ageBasis": "Visual estimate",
-                "ageConfidence": "Low",
-                "mixUsed": "No",
-                "floorsBasis": "Visual estimate",
-                "floorsConfidence": "Medium",
-                "source": "GPT visual inference \u00b7 image reviewed",
-                "verified": false
-              },
-              "source": "osm",
-              "area_m2": 168.73621113331882
-            },
-            {
-              "id": "277071801",
-              "image": "assets/zurich/pid_334013848398681_bdid_277071801.png",
-              "box": [
-                0.5927734375,
-                0.41162109375,
-                0.1259765625,
-                0.2822265625,
-                0.8267945051193237
-              ],
-              "location": [
-                8.553221257736038,
-                47.37364082891013
-              ],
-              "attributes": {
-                "type": "Residential",
-                "material": {
-                  "first": "Render",
-                  "secondary": "None"
-                },
-                "floors": "4",
-                "age": "1900\u20131919",
-                "caption": "An attached corner building with balconies, repeated upper-floor windows and commercial-looking openings at street level. The facade is light coloured with darker window trim.",
-                "ageBasis": "Visual estimate",
-                "ageConfidence": "Low",
-                "mixUsed": "Yes",
-                "floorsBasis": "Visual estimate",
-                "floorsConfidence": "Medium",
-                "source": "GPT visual inference \u00b7 image reviewed",
-                "verified": false
-              },
-              "source": "osm",
-              "area_m2": 177.64534678441385
-            }
-          ],
-          "status": "ready"
-        },
-        {
           "id": "1178388842631254",
           "name": "Street view 02",
           "location": [
@@ -278,208 +160,6 @@
               },
               "source": "osm",
               "area_m2": 342.2804890978477
-            }
-          ],
-          "status": "ready"
-        },
-        {
-          "id": "181896373816058",
-          "name": "Street view 03",
-          "location": [
-            8.5537999539966,
-            47.373678226178
-          ],
-          "heading": 248.01571473006,
-          "capturedAt": "2017-09-21",
-          "creator": "beat",
-          "image": "assets/zurich/181896373816058.jpg",
-          "sourceUrl": "https://www.mapillary.com/app/?pKey=181896373816058&focus=photo",
-          "buildings": [
-            {
-              "id": "33807000",
-              "image": "assets/zurich/pid_181896373816058_bdid_33807000.png",
-              "box": [
-                0.203369140625,
-                0.330078125,
-                0.20361328125,
-                0.447265625,
-                0.7666342854499817
-              ],
-              "location": [
-                8.553937903516639,
-                47.373479604295255
-              ],
-              "attributes": {
-                "type": "Residential",
-                "material": {
-                  "first": "Render",
-                  "secondary": "Stone"
-                },
-                "floors": "4",
-                "age": "1880\u20131899",
-                "caption": "A light-coloured apartment-like building with dark shutters, a projecting bay and a substantial base. A tree partly obscures the elevation.",
-                "ageBasis": "Visual estimate",
-                "ageConfidence": "Low",
-                "mixUsed": "No",
-                "floorsBasis": "Visual estimate",
-                "floorsConfidence": "Medium",
-                "source": "GPT visual inference \u00b7 image reviewed",
-                "verified": false
-              },
-              "source": "osm",
-              "area_m2": 488.32235689752537
-            },
-            {
-              "id": "125384113",
-              "image": "assets/zurich/pid_181896373816058_bdid_125384113.png",
-              "box": [
-                0.93603515625,
-                0.35302734375,
-                0.1162109375,
-                0.2626953125,
-                0.7458953261375427
-              ],
-              "location": [
-                8.554013817100936,
-                47.373824993644234
-              ],
-              "attributes": {
-                "type": "Residential",
-                "material": {
-                  "first": "Render",
-                  "secondary": "None"
-                },
-                "floors": "4",
-                "age": "1880\u20131899",
-                "caption": "A white end wall with a prominent gable and a row of windows along the adjoining elevation. Vegetation hides the lower portion, so the floor count is unclear.",
-                "ageBasis": "Visual estimate",
-                "ageConfidence": "Low",
-                "mixUsed": "No",
-                "floorsBasis": "Visual estimate",
-                "floorsConfidence": "Low",
-                "source": "GPT visual inference \u00b7 image reviewed",
-                "verified": false
-              },
-              "source": "osm",
-              "area_m2": 302.42369074258687
-            },
-            {
-              "id": "123543874",
-              "image": "assets/zurich/pid_181896373816058_bdid_123543874.png",
-              "box": [
-                0.4423828125,
-                0.46240234375,
-                0.1005859375,
-                0.1845703125,
-                0.7747791409492493
-              ],
-              "location": [
-                8.553378760341756,
-                47.37343559885629
-              ],
-              "attributes": {
-                "type": "Residential",
-                "material": {
-                  "first": "Render",
-                  "secondary": "None"
-                },
-                "floors": "4",
-                "age": "1880\u20131899",
-                "caption": "A corner building with shuttered windows and a restaurant-like ground floor. Strong sunlight limits detail in one of the street views.",
-                "ageBasis": "Visual estimate",
-                "ageConfidence": "Low",
-                "mixUsed": "Yes",
-                "floorsBasis": "Visual estimate",
-                "floorsConfidence": "Medium",
-                "source": "GPT visual inference \u00b7 image reviewed",
-                "verified": false
-              },
-              "source": "osm",
-              "area_m2": 343.41916504330226
-            }
-          ],
-          "status": "ready"
-        },
-        {
-          "id": "142623077881396",
-          "name": "Street view 04",
-          "location": [
-            8.5538192321528,
-            47.373285342124
-          ],
-          "heading": 155.66841169059,
-          "capturedAt": "2017-09-21",
-          "creator": "beat",
-          "image": "assets/zurich/142623077881396.jpg",
-          "sourceUrl": "https://www.mapillary.com/app/?pKey=142623077881396&focus=photo",
-          "buildings": [
-            {
-              "id": "123543858",
-              "area_m2": 342.2804890978477,
-              "image": "assets/zurich/pid_142623077881396_bdid_123543858.png",
-              "box": [
-                0.76513671875,
-                0.32275390625,
-                0.224609375,
-                0.3720703125,
-                0.714483380317688
-              ],
-              "location": [
-                8.553574169238159,
-                47.373269836062335
-              ],
-              "source": "osm",
-              "attributes": {
-                "type": "Residential",
-                "material": {
-                  "first": "Render",
-                  "secondary": "None"
-                },
-                "floors": "4",
-                "age": "1880\u20131899",
-                "caption": "A narrow view of a light facade with shuttered windows and a stone-like ground-floor base. The crop does not show the complete building.",
-                "ageBasis": "Visual estimate",
-                "ageConfidence": "Low",
-                "mixUsed": "No",
-                "floorsBasis": "Visual estimate",
-                "floorsConfidence": "Medium",
-                "source": "GPT visual inference \u00b7 image reviewed",
-                "verified": false
-              }
-            },
-            {
-              "id": "123543874",
-              "area_m2": 343.41916504330226,
-              "image": "assets/zurich/pid_142623077881396_bdid_123543874.png",
-              "box": [
-                0.915283203125,
-                0.3779296875,
-                0.08935546875,
-                0.271484375,
-                0.8033614754676819
-              ],
-              "location": [
-                8.553378760341756,
-                47.37343559885629
-              ],
-              "source": "osm",
-              "attributes": {
-                "type": "Residential",
-                "material": {
-                  "first": "Render",
-                  "secondary": "None"
-                },
-                "floors": "4",
-                "age": "1880\u20131899",
-                "caption": "A corner building with shuttered windows and a restaurant-like ground floor. Strong sunlight limits detail in one of the street views.",
-                "ageBasis": "Visual estimate",
-                "ageConfidence": "Low",
-                "mixUsed": "Yes",
-                "floorsBasis": "Visual estimate",
-                "floorsConfidence": "Medium",
-                "source": "GPT visual inference \u00b7 image reviewed",
-                "verified": false
-              }
             }
           ],
           "status": "ready"
@@ -668,90 +348,6 @@
           "status": "ready"
         },
         {
-          "id": "309581514214660",
-          "name": "Street view 08",
-          "location": [
-            8.5520009140574,
-            47.374001010928
-          ],
-          "heading": 338.58936642309,
-          "capturedAt": "2017-09-21",
-          "creator": "beat",
-          "image": "assets/zurich/309581514214660.jpg",
-          "sourceUrl": "https://www.mapillary.com/app/?pKey=309581514214660&focus=photo",
-          "buildings": [
-            {
-              "id": "104474371",
-              "area_m2": 219.28228803485,
-              "image": "assets/zurich/pid_309581514214660_bdid_104474371.png",
-              "box": [
-                0.906982421875,
-                0.43408203125,
-                0.11181640625,
-                0.2080078125,
-                0.863368034362793
-              ],
-              "location": [
-                8.55225046611868,
-                47.373828903157104
-              ],
-              "source": "osm",
-              "attributes": {
-                "type": "Residential",
-                "mixUsed": "No",
-                "material": {
-                  "first": "Render",
-                  "secondary": "None"
-                },
-                "floors": "3",
-                "age": "1900\u20131919",
-                "caption": "A pale rendered house with shuttered windows, a pitched roof and an occupied attic level.",
-                "ageBasis": "Visual estimate",
-                "ageConfidence": "Low",
-                "floorsBasis": "Visual estimate",
-                "floorsConfidence": "Low",
-                "source": "GPT visual inference \u00b7 image reviewed",
-                "verified": false
-              }
-            },
-            {
-              "id": "104474404",
-              "area_m2": 143.6175843468888,
-              "image": "assets/zurich/pid_309581514214660_bdid_104474404.png",
-              "box": [
-                0.82666015625,
-                0.42919921875,
-                0.0859375,
-                0.1630859375,
-                0.6648944020271301
-              ],
-              "location": [
-                8.552404424908344,
-                47.373948247833816
-              ],
-              "source": "osm",
-              "attributes": {
-                "type": "Residential",
-                "mixUsed": "No",
-                "material": {
-                  "first": "Render",
-                  "secondary": "Stone"
-                },
-                "floors": "4",
-                "age": "1880\u20131899",
-                "caption": "A pale residential-looking facade with repeated shuttered windows and a steep roof, partly obscured by a tree.",
-                "ageBasis": "Visual estimate",
-                "ageConfidence": "Low",
-                "floorsBasis": "Visual estimate",
-                "floorsConfidence": "Low",
-                "source": "GPT visual inference \u00b7 image reviewed",
-                "verified": false
-              }
-            }
-          ],
-          "status": "ready"
-        },
-        {
           "id": "941749783316362",
           "name": "Street view 09",
           "location": [
@@ -817,124 +413,6 @@
           "status": "empty"
         },
         {
-          "id": "219978359556140",
-          "name": "Street view 11",
-          "location": [
-            8.5539980817,
-            47.374426341377
-          ],
-          "heading": 316.87133108106,
-          "capturedAt": "2017-09-16",
-          "creator": "beat",
-          "image": "assets/zurich/219978359556140.jpg",
-          "sourceUrl": "https://www.mapillary.com/app/?pKey=219978359556140&focus=photo",
-          "buildings": [
-            {
-              "id": "104474408",
-              "area_m2": 414.60888060775534,
-              "image": "assets/zurich/pid_219978359556140_bdid_104474408.png",
-              "box": [
-                0.342529296875,
-                0.48681640625,
-                0.20458984375,
-                0.2626953125,
-                0.40068936347961426
-              ],
-              "location": [
-                8.553683077514746,
-                47.37447377359763
-              ],
-              "source": "osm",
-              "attributes": {
-                "type": "Public",
-                "mixUsed": "No",
-                "material": {
-                  "first": "Concrete",
-                  "secondary": "None"
-                },
-                "floors": "1",
-                "age": "2000\u20132019",
-                "caption": "A low auditorium entrance with broad pale concrete walls, a simple doorway and a projecting canopy.",
-                "ageBasis": "Visual estimate",
-                "ageConfidence": "Low",
-                "floorsBasis": "Visual estimate",
-                "floorsConfidence": "Low",
-                "source": "GPT visual inference \u00b7 image reviewed",
-                "verified": false
-              }
-            },
-            {
-              "id": "104474358",
-              "area_m2": 221.22763281835012,
-              "image": "assets/zurich/pid_219978359556140_bdid_104474358.png",
-              "box": [
-                0.123779296875,
-                0.36181640625,
-                0.16845703125,
-                0.3017578125,
-                0.8075486421585083
-              ],
-              "location": [
-                8.55395957759327,
-                47.37422365462712
-              ],
-              "source": "osm",
-              "attributes": {
-                "type": "Public",
-                "mixUsed": "No",
-                "material": {
-                  "first": "Brick",
-                  "secondary": "Glass"
-                },
-                "floors": "4",
-                "age": "2000\u20132019",
-                "caption": "A contemporary institutional-looking block with red brick screens, recessed windows and a glazed entrance.",
-                "ageBasis": "Visual estimate",
-                "ageConfidence": "Low",
-                "floorsBasis": "Visual estimate",
-                "floorsConfidence": "Low",
-                "source": "GPT visual inference \u00b7 image reviewed",
-                "verified": false
-              }
-            },
-            {
-              "id": "488774298",
-              "area_m2": 60.77100626378303,
-              "image": "assets/zurich/pid_219978359556140_bdid_488774298.png",
-              "box": [
-                0.67138671875,
-                0.34228515625,
-                0.1005859375,
-                0.4111328125,
-                0.8206533193588257
-              ],
-              "location": [
-                8.553997403218366,
-                47.37456311573803
-              ],
-              "source": "osm",
-              "attributes": {
-                "type": "Residential",
-                "mixUsed": "No",
-                "material": {
-                  "first": "Render",
-                  "secondary": "Stone"
-                },
-                "floors": "4",
-                "age": "1900\u20131919",
-                "caption": "An ornate pale residential-looking facade with arched lower windows, decorative trim and a shaped roofline.",
-                "ageBasis": "Visual estimate",
-                "ageConfidence": "Low",
-                "floorsBasis": "Visual estimate",
-                "floorsConfidence": "Low",
-                "source": "GPT visual inference \u00b7 image reviewed",
-                "verified": false
-              }
-            }
-          ],
-          "status": "ready"
-        },
-        {
           "id": "2946365952319302",
           "name": "Street view 12",
           "location": [
@@ -973,6 +451,392 @@
                 "floors": "4",
                 "age": "1960\u20131979",
                 "caption": "A mid-rise block undergoing facade works, largely screened by scaffolding; its material and use are unclear.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            }
+          ],
+          "status": "ready"
+        },
+        {
+          "id": "990790945061204",
+          "name": "Street view 01",
+          "location": [
+            8.5531815071969,
+            47.373955531946
+          ],
+          "heading": 205.37019918685,
+          "capturedAt": "2017-10-19",
+          "creator": "beat",
+          "image": "assets/zurich/990790945061204.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=990790945061204&focus=photo",
+          "buildings": [
+            {
+              "id": "33806998",
+              "area_m2": 960.530449567159,
+              "image": "assets/zurich/pid_990790945061204_bdid_33806998.png",
+              "box": [
+                0.95654296875,
+                0.32568359375,
+                0.1953125,
+                0.3427734375,
+                0.5853016376495361
+              ],
+              "location": [
+                8.553350376608366,
+                47.37426463226771
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Public",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Glass",
+                  "secondary": "Metal"
+                },
+                "floors": "3",
+                "age": "2000\u20132019",
+                "caption": "A contemporary institutional-looking frontage with broad glazing and dark metal cladding, partly obscured by trees.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "125384092",
+              "area_m2": 168.73621113331882,
+              "image": "assets/zurich/pid_990790945061204_bdid_125384092.png",
+              "box": [
+                0.151611328125,
+                0.359375,
+                0.18701171875,
+                0.3515625,
+                0.8738032579421997
+              ],
+              "location": [
+                8.553400550739177,
+                47.373961048212855
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Stone"
+                },
+                "floors": "4",
+                "age": "1900\u20131919",
+                "caption": "A pale rendered house with regular shuttered windows, a stone base and small roof-level dormers.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "277071803",
+              "area_m2": 142.33482442942625,
+              "image": "assets/zurich/pid_990790945061204_bdid_277071803.png",
+              "box": [
+                0.455322265625,
+                0.3916015625,
+                0.15478515625,
+                0.322265625,
+                0.7840532064437866
+              ],
+              "location": [
+                8.553158175548695,
+                47.37374346509948
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Stone"
+                },
+                "floors": "4",
+                "age": "1900\u20131919",
+                "caption": "A pale residential-looking corner facade with decorative window surrounds; construction hoarding partly covers its lower frontage.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "104474365",
+              "area_m2": 859.0908748130015,
+              "image": "assets/zurich/pid_990790945061204_bdid_104474365.png",
+              "box": [
+                0.762451171875,
+                0.3857421875,
+                0.08251953125,
+                0.162109375,
+                0.7943763136863708
+              ],
+              "location": [
+                8.552642383102365,
+                47.37418103143907
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Stone"
+                },
+                "floors": "5",
+                "age": "1900\u20131919",
+                "caption": "A narrow view of a pale residential-looking facade with regular windows and small projecting balconies.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            }
+          ],
+          "status": "ready"
+        },
+        {
+          "id": "217827070144643",
+          "name": "Street view 03",
+          "location": [
+            8.5537070285832,
+            47.373305911171
+          ],
+          "heading": 253.3187880453,
+          "capturedAt": "2018-05-02",
+          "creator": "beat",
+          "image": "assets/zurich/217827070144643.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=217827070144643&focus=photo",
+          "buildings": [
+            {
+              "id": "123543874",
+              "area_m2": 343.41916504330226,
+              "image": "assets/zurich/pid_217827070144643_bdid_123543874.png",
+              "box": [
+                0.681884765625,
+                0.44189453125,
+                0.06103515625,
+                0.1826171875,
+                0.6247260570526123
+              ],
+              "location": [
+                8.553378760341756,
+                47.37343559885629
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Stone"
+                },
+                "floors": "4",
+                "age": "1900\u20131919",
+                "caption": "A narrow pale corner facade with tall upper windows, shallow projecting bays and a heavier masonry base.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            }
+          ],
+          "status": "ready"
+        },
+        {
+          "id": "950698899035079",
+          "name": "Street view 04",
+          "location": [
+            8.5531884706718,
+            47.372776213319
+          ],
+          "heading": 296.04229462064,
+          "capturedAt": "2020-05-16",
+          "creator": "beat",
+          "image": "assets/zurich/950698899035079.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=950698899035079&focus=photo",
+          "buildings": [
+            {
+              "id": "61588659",
+              "area_m2": 269.5424955537811,
+              "image": "assets/zurich/pid_950698899035079_bdid_61588659.png",
+              "box": [
+                0.597900390625,
+                0.42822265625,
+                0.17333984375,
+                0.2314453125,
+                0.47988200187683105
+              ],
+              "location": [
+                8.553008900182396,
+                47.37290896665229
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "None"
+                },
+                "floors": "4",
+                "age": "1920\u20131939",
+                "caption": "A simple pale residential-looking block with repeated windows and a pitched roof, partly screened by trees.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "123543853",
+              "area_m2": 272.7028134060414,
+              "image": "assets/zurich/pid_950698899035079_bdid_123543853.png",
+              "box": [
+                0.66943359375,
+                0.45361328125,
+                0.1630859375,
+                0.1826171875,
+                0.43734753131866455
+              ],
+              "location": [
+                8.55321203974744,
+                47.373085411351006
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "None"
+                },
+                "floors": "3",
+                "age": "1920\u20131939",
+                "caption": "A pale low-rise residential-looking facade with regular windows and a small entrance, partly obscured by foliage.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            }
+          ],
+          "status": "ready"
+        },
+        {
+          "id": "300191638322484",
+          "name": "Street view 08",
+          "location": [
+            8.5520438178096,
+            47.373872305035
+          ],
+          "heading": 354.98083882169,
+          "capturedAt": "2020-05-16",
+          "creator": "beat",
+          "image": "assets/zurich/300191638322484.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=300191638322484&focus=photo",
+          "buildings": [
+            {
+              "id": "104474428",
+              "area_m2": 211.93749268216905,
+              "image": "assets/zurich/pid_300191638322484_bdid_104474428.png",
+              "box": [
+                0.034912109375,
+                0.427734375,
+                0.09326171875,
+                0.185546875,
+                0.3926180303096771
+              ],
+              "location": [
+                8.551924011654581,
+                47.373637962813696
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Brick",
+                  "secondary": "Stone"
+                },
+                "floors": "5",
+                "age": "1900\u20131919",
+                "caption": "A historic-looking corner apartment facade with small balconies, decorative stone window surrounds and a shaped roofline.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            }
+          ],
+          "status": "ready"
+        },
+        {
+          "id": "856085828340949",
+          "name": "Street view 11",
+          "location": [
+            8.5524020624133,
+            47.374652442132
+          ],
+          "heading": 131.05212085593,
+          "capturedAt": "2020-05-16",
+          "creator": "beat",
+          "image": "assets/zurich/856085828340949.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=856085828340949&focus=photo",
+          "buildings": [
+            {
+              "id": "277071809",
+              "area_m2": 1119.442877574424,
+              "image": "assets/zurich/pid_856085828340949_bdid_277071809.png",
+              "box": [
+                0.33984375,
+                0.44677734375,
+                0.2236328125,
+                0.1904296875,
+                0.4571641683578491
+              ],
+              "location": [
+                8.55294405578159,
+                47.37456283285509
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Public",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "4",
+                "age": "1980\u20131999",
+                "caption": "A broad pale institutional-looking frontage with horizontal window bands, a curved roof edge and a recessed lower level.",
                 "ageBasis": "Visual estimate",
                 "ageConfidence": "Low",
                 "floorsBasis": "Visual estimate",
