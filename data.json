@@ -10910,44 +10910,44 @@
       ],
       "panoramas": [
         {
-          "id": "314098451501472",
-          "name": "Street view 07",
+          "id": "904116147815456",
+          "name": "Street view 05",
           "location": [
-            103.77760400474,
-            1.2932891501499
+            103.78054187234,
+            1.296009444164
           ],
-          "heading": 320.13973985617,
-          "capturedAt": "2023-11-08",
+          "heading": 354.59731906771,
+          "capturedAt": "2023-12-04",
           "creator": "kunihiko",
-          "image": "assets/singapore/314098451501472.jpg",
-          "sourceUrl": "https://www.mapillary.com/app/?pKey=314098451501472&focus=photo",
+          "image": "assets/singapore/904116147815456.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=904116147815456&focus=photo",
           "status": "ready",
           "buildings": [
             {
-              "id": "1489773925",
-              "area_m2": 139.19973425007166,
-              "image": "assets/singapore/pid_314098451501472_bdid_1489773925.png",
+              "id": "141906130",
+              "area_m2": 2475.5451187707145,
+              "image": "assets/singapore/pid_904116147815456_bdid_141906130.png",
               "box": [
-                0.040771484375,
-                0.490234375,
-                0.09814453125,
-                0.12109375,
-                0.8373209834098816
+                0.20556640625,
+                0.31396484375,
+                0.14453125,
+                0.3544921875,
+                0.7319586873054504
               ],
               "location": [
-                103.77769120970542,
-                1.2929995723422123
+                103.77997783072188,
+                1.2959348902242933
               ],
               "attributes": {
                 "type": "Public",
                 "mixUsed": "No",
                 "material": {
-                  "first": "Render",
-                  "secondary": "None"
+                  "first": "Glass",
+                  "secondary": "Concrete"
                 },
-                "floors": "2",
-                "age": "1960\u20131979",
-                "caption": "A low institutional-looking bungalow with pale walls, a tiled roof and a small recessed entrance.",
+                "floors": "15",
+                "age": "2000\u20132019",
+                "caption": "A modern university tower with blue glazing, a faceted upper volume and a concrete base. The full roofline is visible.",
                 "ageBasis": "Visual estimate",
                 "ageConfidence": "Low",
                 "floorsBasis": "Visual estimate",
@@ -10958,15 +10958,133 @@
               "source": "osm"
             },
             {
+              "id": "a08ba760-6fd5-416f-a928-a8ca1ee66fcc",
+              "area_m2": 170.58814874301567,
+              "image": "assets/singapore/pid_904116147815456_bdid_a08ba760-6fd5-416f-a928-a8ca1ee66fcc.png",
+              "box": [
+                0.01611328125,
+                0.3076171875,
+                0.1220703125,
+                0.279296875,
+                0.6792743802070618
+              ],
+              "location": [
+                103.78057301044484,
+                1.2957988085744567
+              ],
+              "attributes": {
+                "type": "Public",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Glass",
+                  "secondary": "Metal"
+                },
+                "floors": "13",
+                "age": "2000\u20132019",
+                "caption": "A tall campus building with closely spaced vertical facade fins and broad glazed elevations.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "overture"
+            },
+            {
+              "id": "141910213",
+              "area_m2": 2652.283785592771,
+              "image": "assets/singapore/pid_904116147815456_bdid_141910213.png",
+              "box": [
+                0.481689453125,
+                0.38037109375,
+                0.17236328125,
+                0.1572265625,
+                0.5347335934638977
+              ],
+              "location": [
+                103.78064958441443,
+                1.2964772306476682
+              ],
+              "attributes": {
+                "type": "Public",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Concrete",
+                  "secondary": "Glass"
+                },
+                "floors": "7",
+                "age": "2000\u20132019",
+                "caption": "A university block with pale walls, horizontal window bands and dark recessed glazing.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "1086101788",
+              "area_m2": 389.72756928305205,
+              "image": "assets/singapore/pid_904116147815456_bdid_1086101788.png",
+              "box": [
+                0.8115234375,
+                0.39306640625,
+                0.2119140625,
+                0.2802734375,
+                0.369823694229126
+              ],
+              "location": [
+                103.7808207345471,
+                1.2961618070577214
+              ],
+              "attributes": {
+                "type": "Public",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Concrete",
+                  "secondary": "Glass"
+                },
+                "floors": "10",
+                "age": "2000\u20132019",
+                "caption": "A stepped campus building with a pale concrete facade, small square windows and glazed sections, partly screened by vegetation.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
+        },
+        {
+          "id": "337269309024386",
+          "name": "Street view 06",
+          "location": [
+            103.77755747334,
+            1.2933159293491
+          ],
+          "heading": 335.63119984469,
+          "capturedAt": "2023-11-08",
+          "creator": "kunihiko",
+          "image": "assets/singapore/337269309024386.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=337269309024386&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
               "id": "1137159833",
               "area_m2": 240.65506600233613,
-              "image": "assets/singapore/pid_314098451501472_bdid_1137159833.png",
+              "image": "assets/singapore/pid_337269309024386_bdid_1137159833.png",
               "box": [
-                0.7373046875,
-                0.4521484375,
-                0.1064453125,
-                0.134765625,
-                0.6080086827278137
+                0.72412109375,
+                0.45947265625,
+                0.07421875,
+                0.1142578125,
+                0.6534625887870789
               ],
               "location": [
                 103.77775687334392,
@@ -10981,41 +11099,7 @@
                 },
                 "floors": "2",
                 "age": "1940\u20131959",
-                "caption": "A pale institutional-looking bungalow with a covered upper veranda and a steep tiled roof, partly screened by trees.",
-                "ageBasis": "Visual estimate",
-                "ageConfidence": "Low",
-                "floorsBasis": "Visual estimate",
-                "floorsConfidence": "Low",
-                "source": "GPT visual inference \u00b7 image reviewed",
-                "verified": false
-              },
-              "source": "osm"
-            },
-            {
-              "id": "1489773924",
-              "area_m2": 148.6741115315436,
-              "image": "assets/singapore/pid_314098451501472_bdid_1489773924.png",
-              "box": [
-                0.31005859375,
-                0.484375,
-                0.154296875,
-                0.181640625,
-                0.5514165759086609
-              ],
-              "location": [
-                103.77747203892324,
-                1.2931808871480326
-              ],
-              "attributes": {
-                "type": "Public",
-                "mixUsed": "No",
-                "material": {
-                  "first": "Render",
-                  "secondary": "None"
-                },
-                "floors": "2",
-                "age": "1960\u20131979",
-                "caption": "A pale low-rise campus-looking building with small upper windows and a covered ground-floor area.",
+                "caption": "A small campus building with pale walls, a pitched tiled roof and an external stair, partly hidden behind trees.",
                 "ageBasis": "Visual estimate",
                 "ageConfidence": "Low",
                 "floorsBasis": "Visual estimate",
@@ -11028,13 +11112,13 @@
             {
               "id": "1137159834",
               "area_m2": 122.78418498212258,
-              "image": "assets/singapore/pid_314098451501472_bdid_1137159834.png",
+              "image": "assets/singapore/pid_337269309024386_bdid_1137159834.png",
               "box": [
-                0.559326171875,
-                0.4775390625,
-                0.08642578125,
-                0.083984375,
-                0.464481383562088
+                0.538330078125,
+                0.46484375,
+                0.09423828125,
+                0.091796875,
+                0.49994969367980957
               ],
               "location": [
                 103.7775167119311,
@@ -11049,7 +11133,41 @@
                 },
                 "floors": "2",
                 "age": "1960\u20131979",
-                "caption": "A narrow view of a low campus-looking building with a projecting roof edge and a pale gabled facade.",
+                "caption": "A two-storey campus building with pale walls and a pitched roof, heavily screened by mature trees.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "1489773924",
+              "area_m2": 148.6741115315436,
+              "image": "assets/singapore/pid_337269309024386_bdid_1489773924.png",
+              "box": [
+                0.203857421875,
+                0.49462890625,
+                0.20556640625,
+                0.2236328125,
+                0.4445905387401581
+              ],
+              "location": [
+                103.77747203892324,
+                1.2931808871480326
+              ],
+              "attributes": {
+                "type": "Public",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "None"
+                },
+                "floors": "2",
+                "age": "1960\u20131979",
+                "caption": "A low campus building with a red tiled roof, pale rendered walls and shaded upper-floor openings.",
                 "ageBasis": "Visual estimate",
                 "ageConfidence": "Low",
                 "floorsBasis": "Visual estimate",
@@ -11062,29 +11180,29 @@
           ]
         },
         {
-          "id": "2045176995868330",
-          "name": "Street view 16",
+          "id": "1421413072084727",
+          "name": "Street view 11",
           "location": [
-            103.77951365501,
-            1.2958590444146
+            103.77952780745,
+            1.295847492229
           ],
-          "heading": 118.5584663327,
+          "heading": 126.37842597912,
           "capturedAt": "2023-12-04",
           "creator": "kunihiko",
-          "image": "assets/singapore/2045176995868330.jpg",
-          "sourceUrl": "https://www.mapillary.com/app/?pKey=2045176995868330&focus=photo",
+          "image": "assets/singapore/1421413072084727.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=1421413072084727&focus=photo",
           "status": "ready",
           "buildings": [
             {
               "id": "141905922",
               "area_m2": 852.0542677020815,
-              "image": "assets/singapore/pid_2045176995868330_bdid_141905922.png",
+              "image": "assets/singapore/pid_1421413072084727_bdid_141905922.png",
               "box": [
-                0.859375,
-                0.3935546875,
-                0.21484375,
-                0.546875,
-                0.857690691947937
+                0.877685546875,
+                0.38623046875,
+                0.14501953125,
+                0.5380859375,
+                0.8619557023048401
               ],
               "location": [
                 103.77921999741802,
@@ -11099,7 +11217,7 @@
                 },
                 "floors": "4",
                 "age": "1980\u20131999",
-                "caption": "An institutional-looking block with long horizontal windows, pale concrete bands and recessed open corridors.",
+                "caption": "A university block with open corridor bands, pale concrete walls and deep horizontal shading.",
                 "ageBasis": "Visual estimate",
                 "ageConfidence": "Low",
                 "floorsBasis": "Visual estimate",
@@ -11112,13 +11230,13 @@
             {
               "id": "141905474",
               "area_m2": 1119.4083445415454,
-              "image": "assets/singapore/pid_2045176995868330_bdid_141905474.png",
+              "image": "assets/singapore/pid_1421413072084727_bdid_141905474.png",
               "box": [
-                0.159912109375,
-                0.37451171875,
-                0.25244140625,
-                0.3857421875,
-                0.8019856810569763
+                0.130126953125,
+                0.3876953125,
+                0.23681640625,
+                0.373046875,
+                0.7958289980888367
               ],
               "location": [
                 103.7793303880589,
@@ -11133,57 +11251,7 @@
                 },
                 "floors": "5",
                 "age": "1980\u20131999",
-                "caption": "A broad institutional-looking facade with horizontal metal sunshades, repeated glazing and a shaded street-level setback.",
-                "ageBasis": "Visual estimate",
-                "ageConfidence": "Low",
-                "floorsBasis": "Visual estimate",
-                "floorsConfidence": "Low",
-                "source": "GPT visual inference \u00b7 image reviewed",
-                "verified": false
-              },
-              "source": "osm"
-            }
-          ]
-        },
-        {
-          "id": "868328948097418",
-          "name": "Street view 10",
-          "location": [
-            103.78048462077,
-            1.2939686900334
-          ],
-          "heading": 336.16938011265,
-          "capturedAt": "2023-12-04",
-          "creator": "kunihiko",
-          "image": "assets/singapore/868328948097418.jpg",
-          "sourceUrl": "https://www.mapillary.com/app/?pKey=868328948097418&focus=photo",
-          "status": "ready",
-          "buildings": [
-            {
-              "id": "453911885",
-              "area_m2": 205.34875333137632,
-              "image": "assets/singapore/pid_868328948097418_bdid_453911885.png",
-              "box": [
-                0.252197265625,
-                0.4638671875,
-                0.13623046875,
-                0.1796875,
-                0.8997970223426819
-              ],
-              "location": [
-                103.78026715000107,
-                1.2938965500016304
-              ],
-              "attributes": {
-                "type": "Public",
-                "mixUsed": "No",
-                "material": {
-                  "first": "Render",
-                  "secondary": "None"
-                },
-                "floors": "2",
-                "age": "1960\u20131979",
-                "caption": "A pale low-rise campus-looking building with a tiled roof and regular windows, partly obscured by foliage.",
+                "caption": "A long campus block with horizontal facade screens, repeated window bands and a sheltered ground floor.",
                 "ageBasis": "Visual estimate",
                 "ageConfidence": "Low",
                 "floorsBasis": "Visual estimate",
@@ -11194,30 +11262,30 @@
               "source": "osm"
             },
             {
-              "id": "453911882",
-              "area_m2": 82.90404810505163,
-              "image": "assets/singapore/pid_868328948097418_bdid_453911882.png",
+              "id": "142075681",
+              "area_m2": 291.8973539818586,
+              "image": "assets/singapore/pid_1421413072084727_bdid_142075681.png",
               "box": [
-                0.107666015625,
-                0.3935546875,
-                0.13916015625,
-                0.099609375,
-                0.5488923192024231
+                0.396484375,
+                0.2958984375,
+                0.1572265625,
+                0.33984375,
+                0.6774973273277283
               ],
               "location": [
-                103.78045235000059,
-                1.2938205000013716
+                103.77967770112899,
+                1.2959994581601635
               ],
               "attributes": {
                 "type": "Public",
                 "mixUsed": "No",
                 "material": {
-                  "first": "Render",
+                  "first": "Metal",
                   "secondary": "Glass"
                 },
-                "floors": "1",
-                "age": "1960\u20131979",
-                "caption": "A low institutional-looking frontage with repeated windows, a simple doorway and a tiled roof.",
+                "floors": "15",
+                "age": "2000\u20132019",
+                "caption": "A tall rectangular university building with a vertically screened facade and glazed side panels.",
                 "ageBasis": "Visual estimate",
                 "ageConfidence": "Low",
                 "floorsBasis": "Visual estimate",
@@ -11230,128 +11298,196 @@
           ]
         },
         {
-          "id": "753969883214668",
-          "name": "Street view 24",
+          "id": "879085260586924",
+          "name": "Street view 13",
           "location": [
-            103.77885896697,
-            1.2948305525685
+            103.77933564168,
+            1.2927232022146
           ],
-          "heading": 308.02752861853,
-          "capturedAt": "2023-12-04",
+          "heading": 317.49637809047,
+          "capturedAt": "2023-11-08",
           "creator": "kunihiko",
-          "image": "assets/singapore/753969883214668.jpg",
-          "sourceUrl": "https://www.mapillary.com/app/?pKey=753969883214668&focus=photo",
+          "image": "assets/singapore/879085260586924.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=879085260586924&focus=photo",
           "status": "ready",
           "buildings": [
             {
-              "id": "453911862",
-              "area_m2": 433.6344896086121,
-              "image": "assets/singapore/pid_753969883214668_bdid_453911862.png",
+              "id": "351136509",
+              "area_m2": 232.26574544895928,
+              "image": "assets/singapore/pid_879085260586924_bdid_351136509.png",
               "box": [
-                0.28955078125,
-                0.42529296875,
-                0.091796875,
-                0.0693359375,
-                0.7097651362419128
+                0.621337890625,
+                0.4111328125,
+                0.09912109375,
+                0.140625,
+                0.8079099059104919
               ],
               "location": [
-                103.77858953384936,
-                1.2945807015590578
+                103.7792886201145,
+                1.2928983094469833
               ],
               "attributes": {
-                "type": "Industrial",
+                "type": "Public",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Wood"
+                },
+                "floors": "2",
+                "age": "1940\u20131959",
+                "caption": "A small pale campus building with an external green stair and a red tiled roof, partly screened by trees.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "351136508",
+              "area_m2": 167.66148924656707,
+              "image": "assets/singapore/pid_879085260586924_bdid_351136508.png",
+              "box": [
+                0.869873046875,
+                0.48046875,
+                0.11376953125,
+                0.12109375,
+                0.45608535408973694
+              ],
+              "location": [
+                103.7795189978831,
+                1.2926621913139136
+              ],
+              "attributes": {
+                "type": "Public",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "None"
+                },
+                "floors": "2",
+                "age": "1960\u20131979",
+                "caption": "A low campus building with pale walls and shaded rectangular openings, largely obscured by trees.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "173058823",
+              "area_m2": 359.5777889405657,
+              "image": "assets/singapore/pid_879085260586924_bdid_173058823.png",
+              "box": [
+                0.229736328125,
+                0.46826171875,
+                0.19287109375,
+                0.1494140625,
+                0.4464402198791504
+              ],
+              "location": [
+                103.77919603106105,
+                1.2925384515035465
+              ],
+              "attributes": {
+                "type": "Public",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "None"
+                },
+                "floors": "2",
+                "age": "1960\u20131979",
+                "caption": "A two-storey campus block with a red tiled roof, horizontal windows and a covered ground-floor walkway.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
+        },
+        {
+          "id": "1282657199794760",
+          "name": "Street view 15",
+          "location": [
+            103.78007716665,
+            1.2955765940377
+          ],
+          "heading": 62.57205947884,
+          "capturedAt": "2023-12-04",
+          "creator": "kunihiko",
+          "image": "assets/singapore/1282657199794760.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=1282657199794760&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "141906130",
+              "area_m2": 2475.5451187707145,
+              "image": "assets/singapore/pid_1282657199794760_bdid_141906130.png",
+              "box": [
+                0.287109375,
+                0.30224609375,
+                0.287109375,
+                0.5458984375,
+                0.80341637134552
+              ],
+              "location": [
+                103.77997783072188,
+                1.2959348902242933
+              ],
+              "attributes": {
+                "type": "Public",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Glass",
+                  "secondary": "Concrete"
+                },
+                "floors": "15",
+                "age": "2000\u20132019",
+                "caption": "A modern university tower with blue glazing and a large projecting concrete volume above its entrance.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "141905956",
+              "area_m2": 1818.586518680418,
+              "image": "assets/singapore/pid_1282657199794760_bdid_141905956.png",
+              "box": [
+                0.97705078125,
+                0.33056640625,
+                0.2861328125,
+                0.2978515625,
+                0.56214439868927
+              ],
+              "location": [
+                103.77973610235586,
+                1.2954748220443502
+              ],
+              "attributes": {
+                "type": "Public",
                 "mixUsed": "No",
                 "material": {
                   "first": "Concrete",
-                  "secondary": "Metal"
-                },
-                "floors": "1",
-                "age": "1980\u20131999",
-                "caption": "A low cylindrical utility-looking structure with plain concrete walls and external metal framing behind a fence.",
-                "ageBasis": "Visual estimate",
-                "ageConfidence": "Low",
-                "floorsBasis": "Visual estimate",
-                "floorsConfidence": "Low",
-                "source": "GPT visual inference \u00b7 image reviewed",
-                "verified": false
-              },
-              "source": "osm"
-            },
-            {
-              "id": "526619593",
-              "area_m2": 116.85152662176392,
-              "image": "assets/singapore/pid_753969883214668_bdid_526619593.png",
-              "box": [
-                0.072265625,
-                0.36669921875,
-                0.1259765625,
-                0.0830078125,
-                0.6979768872261047
-              ],
-              "location": [
-                103.77893883801687,
-                1.2946626809299184
-              ],
-              "attributes": {
-                "type": "Public",
-                "mixUsed": "No",
-                "material": {
-                  "first": "Render",
                   "secondary": "Glass"
                 },
-                "floors": "1",
+                "floors": "4",
                 "age": "1980\u20131999",
-                "caption": "A small pale campus-looking building with a projecting roof edge and a few regular windows.",
-                "ageBasis": "Visual estimate",
-                "ageConfidence": "Low",
-                "floorsBasis": "Visual estimate",
-                "floorsConfidence": "Low",
-                "source": "GPT visual inference \u00b7 image reviewed",
-                "verified": false
-              },
-              "source": "osm"
-            }
-          ]
-        },
-        {
-          "id": "292670920425141",
-          "name": "Street view 26",
-          "location": [
-            103.77981963845,
-            1.2946750821548
-          ],
-          "heading": 325.79303408279,
-          "capturedAt": "2023-12-04",
-          "creator": "kunihiko",
-          "image": "assets/singapore/292670920425141.jpg",
-          "sourceUrl": "https://www.mapillary.com/app/?pKey=292670920425141&focus=photo",
-          "status": "ready",
-          "buildings": [
-            {
-              "id": "453911890",
-              "area_m2": 130.3281727431412,
-              "image": "assets/singapore/pid_292670920425141_bdid_453911890.png",
-              "box": [
-                0.015380859375,
-                0.4921875,
-                0.08154296875,
-                0.166015625,
-                0.9238092303276062
-              ],
-              "location": [
-                103.77996974022159,
-                1.2944437214253197
-              ],
-              "attributes": {
-                "type": "Public",
-                "mixUsed": "No",
-                "material": {
-                  "first": "Render",
-                  "secondary": "None"
-                },
-                "floors": "1",
-                "age": "1960\u20131979",
-                "caption": "A low pale campus-looking frontage with small windows and a tiled roof, partly screened by trees.",
+                "caption": "A low university block with exposed concrete corridors and repeated horizontal window openings.",
                 "ageBasis": "Visual estimate",
                 "ageConfidence": "Low",
                 "floorsBasis": "Visual estimate",
@@ -11362,30 +11498,30 @@
               "source": "osm"
             },
             {
-              "id": "453911876",
-              "area_m2": 187.35035761583507,
-              "image": "assets/singapore/pid_292670920425141_bdid_453911876.png",
+              "id": "141913009",
+              "area_m2": 2516.8091530832703,
+              "image": "assets/singapore/pid_1282657199794760_bdid_141913009.png",
               "box": [
-                0.205078125,
-                0.54638671875,
-                0.2099609375,
-                0.2548828125,
-                0.6482897996902466
+                0.864501953125,
+                0.33056640625,
+                0.11962890625,
+                0.2939453125,
+                0.5170949697494507
               ],
               "location": [
-                103.77967946583917,
-                1.2945643160543074
+                103.78022894097714,
+                1.295078606436067
               ],
               "attributes": {
                 "type": "Public",
                 "mixUsed": "No",
                 "material": {
-                  "first": "Render",
-                  "secondary": "None"
+                  "first": "Concrete",
+                  "secondary": "Glass"
                 },
-                "floors": "2",
-                "age": "1960\u20131979",
-                "caption": "A pale low-rise campus-looking building beneath a tiled roof, largely screened by a tree.",
+                "floors": "6",
+                "age": "1980\u20131999",
+                "caption": "A campus block with stacked open corridors, pale concrete walls and shaded rectangular openings.",
                 "ageBasis": "Visual estimate",
                 "ageConfidence": "Low",
                 "floorsBasis": "Visual estimate",
