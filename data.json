@@ -11532,6 +11532,124 @@
               "source": "osm"
             }
           ]
+        },
+        {
+          "id": "316110507993426",
+          "name": "Street view 24",
+          "location": [
+            103.78055315,
+            1.2939059120441
+          ],
+          "heading": 342.25751180842,
+          "capturedAt": "2023-12-04",
+          "creator": "kunihiko",
+          "image": "assets/singapore/316110507993426.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=316110507993426&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "453911885",
+              "area_m2": 205.34875333137632,
+              "image": "assets/singapore/pid_316110507993426_bdid_453911885.png",
+              "box": [
+                0.2763671875,
+                0.40380859375,
+                0.0888671875,
+                0.0947265625,
+                0.857409656047821
+              ],
+              "location": [
+                103.78026715000107,
+                1.2938965500016304
+              ],
+              "attributes": {
+                "type": "Public",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "None"
+                },
+                "floors": "2",
+                "age": "1960\u20131979",
+                "caption": "A small campus building with pale rendered walls, a tiled roof and rectangular windows, partly screened by a tree.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "453911894",
+              "area_m2": 113.55732111131917,
+              "image": "assets/singapore/pid_316110507993426_bdid_453911894.png",
+              "box": [
+                0.0478515625,
+                0.45068359375,
+                0.0859375,
+                0.1103515625,
+                0.6194893717765808
+              ],
+              "location": [
+                103.78053651467697,
+                1.2936693404968407
+              ],
+              "attributes": {
+                "type": "Public",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "None"
+                },
+                "floors": "2",
+                "age": "1960\u20131979",
+                "caption": "A low campus block with a red tiled roof, pale walls and a sheltered entrance beside a grassy slope.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "453911882",
+              "area_m2": 82.90404810505163,
+              "image": "assets/singapore/pid_316110507993426_bdid_453911882.png",
+              "box": [
+                0.18896484375,
+                0.419921875,
+                0.26171875,
+                0.125,
+                0.5919575691223145
+              ],
+              "location": [
+                103.78045235000059,
+                1.2938205000013716
+              ],
+              "attributes": {
+                "type": "Public",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "1",
+                "age": "1960\u20131979",
+                "caption": "A long single-storey campus wing with pale walls, closely spaced windows and a red tiled roof.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
         }
       ],
       "status": "ready",
@@ -12137,6 +12255,512 @@
               "source": "overture"
             }
           ]
+        },
+        {
+          "id": "1606856880483406",
+          "name": "Street view 09",
+          "location": [
+            106.82430053695,
+            -6.1884834310123
+          ],
+          "heading": 92.505207516511,
+          "capturedAt": "2025-11-08",
+          "creator": "Kaart---360",
+          "image": "assets/jakarta/1606856880483406.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=1606856880483406&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "1514023977",
+              "area_m2": 1646.0600146656898,
+              "image": "assets/jakarta/pid_1606856880483406_bdid_1514023977.png",
+              "box": [
+                0.2978515625,
+                0.39599609375,
+                0.212890625,
+                0.4208984375,
+                0.615504801273346
+              ],
+              "location": [
+                106.82465537061077,
+                -6.188264988567991
+              ],
+              "attributes": {
+                "type": "Public",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "None"
+                },
+                "floors": "2",
+                "age": "1980\u20131999",
+                "caption": "A small police-station frontage with a pitched tiled roof, pale rendered walls and a sheltered entrance.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "1514023984",
+              "area_m2": 214.44848842113055,
+              "image": "assets/jakarta/pid_1606856880483406_bdid_1514023984.png",
+              "box": [
+                0.437255859375,
+                0.42578125,
+                0.06591796875,
+                0.212890625,
+                0.44172152876853943
+              ],
+              "location": [
+                106.82459588133338,
+                -6.188386357862721
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "4",
+                "age": "1980\u20131999",
+                "caption": "A narrow multi-storey street frontage with dark rendered walls and balcony or corridor openings, partly obscured by vegetation.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "122152170",
+              "area_m2": 1751.7254560119782,
+              "image": "assets/jakarta/pid_1606856880483406_bdid_122152170.png",
+              "box": [
+                0.70166015625,
+                0.38134765625,
+                0.21875,
+                0.3076171875,
+                0.41750437021255493
+              ],
+              "location": [
+                106.82438599999952,
+                -6.188860050001294
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Glass",
+                  "secondary": "Composite"
+                },
+                "floors": "4",
+                "age": "2000\u20132019",
+                "caption": "A narrow commercial frontage with coloured facade panels and curved glazing, attached to a row of street buildings.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
+        },
+        {
+          "id": "25427539873580716",
+          "name": "Street view 10",
+          "location": [
+            106.82037383335,
+            -6.1905612355428
+          ],
+          "heading": 219.59118409241,
+          "capturedAt": "2025-10-26",
+          "creator": "Kaart---360",
+          "image": "assets/jakarta/25427539873580716.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=25427539873580716&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "ebca325d-5e46-485b-9c16-9111ca427f91",
+              "area_m2": 155.50003532389843,
+              "image": "assets/jakarta/pid_25427539873580716_bdid_ebca325d-5e46-485b-9c16-9111ca427f91.png",
+              "box": [
+                0.9541015625,
+                0.51171875,
+                0.125,
+                0.1640625,
+                0.7596541047096252
+              ],
+              "location": [
+                106.82042777538133,
+                -6.190325974824011
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Wood",
+                  "secondary": "Render"
+                },
+                "floors": "1",
+                "age": "1960\u20131979",
+                "caption": "A low street shop with a tiled roof, a dark open frontage and signage under the eaves.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "overture"
+            },
+            {
+              "id": "483396927",
+              "area_m2": 240.58831002280027,
+              "image": "assets/jakarta/pid_25427539873580716_bdid_483396927.png",
+              "box": [
+                0.753173828125,
+                0.4091796875,
+                0.13525390625,
+                0.3671875,
+                0.5448051691055298
+              ],
+              "location": [
+                106.82014708271758,
+                -6.190273872926574
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "5",
+                "age": "1980\u20131999",
+                "caption": "A narrow building with pale rendered walls, small balconies and a sheltered ground-floor frontage.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "483396896",
+              "area_m2": 91.42504474369693,
+              "image": "assets/jakarta/pid_25427539873580716_bdid_483396896.png",
+              "box": [
+                0.492919921875,
+                0.28662109375,
+                0.16455078125,
+                0.3369140625,
+                0.35638684034347534
+              ],
+              "location": [
+                106.82028212496665,
+                -6.190632009859502
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "None"
+                },
+                "floors": "3",
+                "age": "1980\u20131999",
+                "caption": "A light-coloured street block with a partly exposed brick base, largely obscured by a tree and overhead cables.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
+        },
+        {
+          "id": "1376781410514420",
+          "name": "Street view 14",
+          "location": [
+            106.82652821313,
+            -6.1871475623766
+          ],
+          "heading": 267.42363349064,
+          "capturedAt": "2025-11-09",
+          "creator": "Kaart---360",
+          "image": "assets/jakarta/1376781410514420.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=1376781410514420&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "483587479",
+              "area_m2": 343.26798615812254,
+              "image": "assets/jakarta/pid_1376781410514420_bdid_483587479.png",
+              "box": [
+                0.861328125,
+                0.39892578125,
+                0.0849609375,
+                0.2412109375,
+                0.7290471792221069
+              ],
+              "location": [
+                106.82672964999968,
+                -6.186790249983186
+              ],
+              "attributes": {
+                "type": "Office",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Glass",
+                  "secondary": "Composite"
+                },
+                "floors": "9",
+                "age": "2000\u20132019",
+                "caption": "A modern office block with blue facade panels, reflective glazing and rectangular window groups.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "495324477",
+              "area_m2": 1423.4494688722261,
+              "image": "assets/jakarta/pid_1376781410514420_bdid_495324477.png",
+              "box": [
+                0.41259765625,
+                0.41015625,
+                0.0830078125,
+                0.189453125,
+                0.4912535846233368
+              ],
+              "location": [
+                106.82628190072516,
+                -6.187527379247399
+              ],
+              "attributes": {
+                "type": "Office",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "9",
+                "age": "2000\u20132019",
+                "caption": "A mid-rise office-like block with a pale facade and closely spaced vertical window openings.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "495324485",
+              "area_m2": 385.36584696606974,
+              "image": "assets/jakarta/pid_1376781410514420_bdid_495324485.png",
+              "box": [
+                0.244140625,
+                0.3544921875,
+                0.1064453125,
+                0.318359375,
+                0.4455607235431671
+              ],
+              "location": [
+                106.82662189627665,
+                -6.187477334383831
+              ],
+              "attributes": {
+                "type": "Office",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Glass",
+                  "secondary": "Metal"
+                },
+                "floors": "8",
+                "age": "2000\u20132019",
+                "caption": "A glazed mid-rise frontage partly screened by trees and dense overhead utility wires.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
+        },
+        {
+          "id": "1515955269548015",
+          "name": "Street view 18",
+          "location": [
+            106.82488972302,
+            -6.1845293538226
+          ],
+          "heading": 350.69814427161,
+          "capturedAt": "2025-11-08",
+          "creator": "Kaart---360",
+          "image": "assets/jakarta/1515955269548015.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=1515955269548015&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "483591578",
+              "area_m2": 159.16274271897856,
+              "image": "assets/jakarta/pid_1515955269548015_bdid_483591578.png",
+              "box": [
+                0.14306640625,
+                0.3994140625,
+                0.1171875,
+                0.27734375,
+                0.562021017074585
+              ],
+              "location": [
+                106.82476085000508,
+                -6.184656500009398
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "4",
+                "age": "1980\u20131999",
+                "caption": "A yellow and pale rendered street block with large windows and a commercial-looking ground floor, partly blocked by a tree.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "483591574",
+              "area_m2": 154.38113440331412,
+              "image": "assets/jakarta/pid_1515955269548015_bdid_483591574.png",
+              "box": [
+                0.42138671875,
+                0.39111328125,
+                0.0634765625,
+                0.2548828125,
+                0.528251051902771
+              ],
+              "location": [
+                106.82474454030341,
+                -6.1843650264439525
+              ],
+              "attributes": {
+                "type": "Office",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "6",
+                "age": "2000\u20132019",
+                "caption": "A narrow mid-rise building with pale walls and vertical glazed strips, only partly visible in the crop.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "483591576",
+              "area_m2": 202.23615135974632,
+              "image": "assets/jakarta/pid_1515955269548015_bdid_483591576.png",
+              "box": [
+                0.35498046875,
+                0.28564453125,
+                0.0830078125,
+                0.1708984375,
+                0.5011764764785767
+              ],
+              "location": [
+                106.82474495000163,
+                -6.184488700003221
+              ],
+              "attributes": {
+                "type": "Office",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Concrete",
+                  "secondary": "Glass"
+                },
+                "floors": "12",
+                "age": "1980\u20131999",
+                "caption": "A tall rectangular block with deep vertical facade ribs and a dark recessed upper floor.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "483591570",
+              "area_m2": 524.3738486487837,
+              "image": "assets/jakarta/pid_1515955269548015_bdid_483591570.png",
+              "box": [
+                0.77734375,
+                0.3486328125,
+                0.0751953125,
+                0.130859375,
+                0.38995736837387085
+              ],
+              "location": [
+                106.82527162800001,
+                -6.184511846640684
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "3",
+                "age": "2000\u20132019",
+                "caption": "A narrow street building with red facade accents, pale walls and broad rectangular glazing.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
         }
       ],
       "status": "ready",
@@ -12664,6 +13288,714 @@
                 "floors": "2",
                 "age": "1960\u20131979",
                 "caption": "A low commercial-looking frontage with a glazed upper level and broad shop windows at ground level.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
+        },
+        {
+          "id": "3534356780030781",
+          "name": "Street view 10",
+          "location": [
+            26.222663558414,
+            -29.114574430323
+          ],
+          "heading": 195.13411051547,
+          "capturedAt": "2025-01-23",
+          "creator": "Infratec2024",
+          "image": "assets/bloemfontein/3534356780030781.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=3534356780030781&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "331013385",
+              "area_m2": 2105.4403701858473,
+              "image": "assets/bloemfontein/pid_3534356780030781_bdid_331013385.png",
+              "box": [
+                0.100830078125,
+                0.484375,
+                0.16552734375,
+                0.140625,
+                0.7230125665664673
+              ],
+              "location": [
+                26.22298381543937,
+                -29.1140781217718
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Metal",
+                  "secondary": "Glass"
+                },
+                "floors": "2",
+                "age": "2000\u20132019",
+                "caption": "A street shop with a broad blue metal fascia, dark upper glazing and an open ground-floor frontage.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "331013376",
+              "area_m2": 8903.450687296578,
+              "image": "assets/bloemfontein/pid_3534356780030781_bdid_331013376.png",
+              "box": [
+                0.63720703125,
+                0.4619140625,
+                0.20703125,
+                0.1484375,
+                0.715796172618866
+              ],
+              "location": [
+                26.22186202817285,
+                -29.114800094175664
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "1",
+                "age": "1980\u20131999",
+                "caption": "A single-storey tyre shop with pale walls, a broad glazed frontage and metal security grilles.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "331013089",
+              "area_m2": 7652.585654551824,
+              "image": "assets/bloemfontein/pid_3534356780030781_bdid_331013089.png",
+              "box": [
+                0.3505859375,
+                0.431640625,
+                0.205078125,
+                0.2109375,
+                0.4317883253097534
+              ],
+              "location": [
+                26.223067478298148,
+                -29.115042731344317
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Metal",
+                  "secondary": "Glass"
+                },
+                "floors": "2",
+                "age": "2000\u20132019",
+                "caption": "A corner shop with a dark metal-clad upper facade, extensive ground-floor glazing and large signs.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
+        },
+        {
+          "id": "557453603722575",
+          "name": "Street view 15",
+          "location": [
+            26.222999255928,
+            -29.119489071114
+          ],
+          "heading": 15.148010870733,
+          "capturedAt": "2024-12-05",
+          "creator": "Infratec2024",
+          "image": "assets/bloemfontein/557453603722575.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=557453603722575&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "331013146",
+              "area_m2": 1582.0918879055819,
+              "image": "assets/bloemfontein/pid_557453603722575_bdid_331013146.png",
+              "box": [
+                0.10888671875,
+                0.34228515625,
+                0.158203125,
+                0.3095703125,
+                0.832891047000885
+              ],
+              "location": [
+                26.222434240998133,
+                -29.119636664343236
+              ],
+              "attributes": {
+                "type": "Office",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Brick",
+                  "secondary": "Glass"
+                },
+                "floors": "7",
+                "age": "1960\u20131979",
+                "caption": "A large rectangular brick block with repeated rows of recessed windows and street stalls along its base.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "331013427",
+              "area_m2": 2442.98833053717,
+              "image": "assets/bloemfontein/pid_557453603722575_bdid_331013427.png",
+              "box": [
+                0.347900390625,
+                0.42578125,
+                0.20068359375,
+                0.271484375,
+                0.7893353700637817
+              ],
+              "location": [
+                26.22277711579946,
+                -29.11905386653302
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Metal",
+                  "secondary": "Brick"
+                },
+                "floors": "2",
+                "age": "1980\u20131999",
+                "caption": "A small shop with a projecting corrugated-metal upper facade and a shaded entrance.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "170138706",
+              "area_m2": 12577.619908458157,
+              "image": "assets/bloemfontein/pid_557453603722575_bdid_170138706.png",
+              "box": [
+                0.88818359375,
+                0.43310546875,
+                0.171875,
+                0.1357421875,
+                0.6977240443229675
+              ],
+              "location": [
+                26.223617321612082,
+                -29.1200615730985
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Brick",
+                  "secondary": "Glass"
+                },
+                "floors": "3",
+                "age": "1980\u20131999",
+                "caption": "A rounded brick street block with arched upper windows, shopfront signs and a sheltered lower level.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
+        },
+        {
+          "id": "1890325751493099",
+          "name": "Street view 17",
+          "location": [
+            26.214508915656,
+            -29.11763711534
+          ],
+          "heading": 103.76847491343,
+          "capturedAt": "2024-12-05",
+          "creator": "Infratec2024",
+          "image": "assets/bloemfontein/1890325751493099.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=1890325751493099&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "199382555",
+              "area_m2": 147.7122139627999,
+              "image": "assets/bloemfontein/pid_1890325751493099_bdid_199382555.png",
+              "box": [
+                0.79931640625,
+                0.43994140625,
+                0.1943359375,
+                0.1455078125,
+                0.7895827889442444
+              ],
+              "location": [
+                26.214386980674128,
+                -29.117762798703087
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "None"
+                },
+                "floors": "2",
+                "age": "1960\u20131979",
+                "caption": "A low residential-looking block with grey rendered walls, a red tiled roof and small rectangular windows.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "3097616d-b394-4ae4-86d8-fc69764ce810",
+              "area_m2": 737.6023230875294,
+              "image": "assets/bloemfontein/pid_1890325751493099_bdid_3097616d-b394-4ae4-86d8-fc69764ce810.png",
+              "box": [
+                0.1494140625,
+                0.4658203125,
+                0.181640625,
+                0.166015625,
+                0.3800090253353119
+              ],
+              "location": [
+                26.214434733722868,
+                -29.117298832689315
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Concrete",
+                  "secondary": "Metal"
+                },
+                "floors": "2",
+                "age": "2000\u20132019",
+                "caption": "A modern low block with exposed concrete walls and coloured metal facade screens, partly hidden by a boundary wall.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "overture"
+            },
+            {
+              "id": "fc86fe06-e1d8-4f6e-8910-356eed54c082",
+              "area_m2": 213.97569095805773,
+              "image": "assets/bloemfontein/pid_1890325751493099_bdid_fc86fe06-e1d8-4f6e-8910-356eed54c082.png",
+              "box": [
+                0.3232421875,
+                0.45703125,
+                0.26171875,
+                0.20703125,
+                0.3796584904193878
+              ],
+              "location": [
+                26.21466259323034,
+                -29.117497533781062
+              ],
+              "attributes": {
+                "type": "Office",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Concrete",
+                  "secondary": "Metal"
+                },
+                "floors": "5",
+                "age": "2000\u20132019",
+                "caption": "A modern block with concrete floor bands and vertical metal facade screens, partly obscured by parked vehicles.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "overture"
+            }
+          ]
+        },
+        {
+          "id": "563527036281157",
+          "name": "Street view 18",
+          "location": [
+            26.217896996997,
+            -29.113464539772
+          ],
+          "heading": 285.92000851336,
+          "capturedAt": "2024-11-27",
+          "creator": "Infratec2024",
+          "image": "assets/bloemfontein/563527036281157.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=563527036281157&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "331013270",
+              "area_m2": 1714.5367040374633,
+              "image": "assets/bloemfontein/pid_563527036281157_bdid_331013270.png",
+              "box": [
+                0.12548828125,
+                0.4873046875,
+                0.1923828125,
+                0.123046875,
+                0.7695643305778503
+              ],
+              "location": [
+                26.218345773942563,
+                -29.11383245995976
+              ],
+              "attributes": {
+                "type": "Public",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Brick",
+                  "secondary": "Concrete"
+                },
+                "floors": "2",
+                "age": "1940\u20131959",
+                "caption": "A long institutional-looking brick block with closely spaced upper windows and a projecting entrance volume.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "0889d731-8da3-40e2-a5b2-a6022ee76240",
+              "area_m2": 624.3622494422664,
+              "image": "assets/bloemfontein/pid_563527036281157_bdid_0889d731-8da3-40e2-a5b2-a6022ee76240.png",
+              "box": [
+                0.8095703125,
+                0.42236328125,
+                0.1640625,
+                0.2158203125,
+                0.5070585608482361
+              ],
+              "location": [
+                26.218078890651682,
+                -29.11311838528857
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Brick",
+                  "secondary": "Render"
+                },
+                "floors": "2",
+                "age": "1980\u20131999",
+                "caption": "A small brick street building with a pale projecting entrance and deeply shaded openings.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "overture"
+            },
+            {
+              "id": "94340848-351b-494d-afdd-5a2ff378cac0",
+              "area_m2": 2529.8276197551386,
+              "image": "assets/bloemfontein/pid_563527036281157_bdid_94340848-351b-494d-afdd-5a2ff378cac0.png",
+              "box": [
+                0.91796875,
+                0.4306640625,
+                0.068359375,
+                0.130859375,
+                0.4369799494743347
+              ],
+              "location": [
+                26.218499532559974,
+                -29.11335564560318
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Metal",
+                  "secondary": "Glass"
+                },
+                "floors": "2",
+                "age": "2000\u20132019",
+                "caption": "A narrow tyre-shop frontage with grey metal cladding, glazing and a tall advertising sign.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "overture"
+            }
+          ]
+        },
+        {
+          "id": "862661775780107",
+          "name": "Street view 21",
+          "location": [
+            26.220117805752,
+            -29.118767851123
+          ],
+          "heading": 102.38420495249,
+          "capturedAt": "2024-12-05",
+          "creator": "Infratec2024",
+          "image": "assets/bloemfontein/862661775780107.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=862661775780107&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "331013115",
+              "area_m2": 5893.00115042691,
+              "image": "assets/bloemfontein/pid_862661775780107_bdid_331013115.png",
+              "box": [
+                0.61962890625,
+                0.46826171875,
+                0.1875,
+                0.2041015625,
+                0.7916421294212341
+              ],
+              "location": [
+                26.22070688183623,
+                -29.11918245514624
+              ],
+              "attributes": {
+                "type": "Office",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Brick",
+                  "secondary": "Render"
+                },
+                "floors": "2",
+                "age": "1960\u20131979",
+                "caption": "A low orange-brick corner building with narrow upper windows and a pale projecting entrance surround.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "331013419",
+              "area_m2": 2776.326672569712,
+              "image": "assets/bloemfontein/pid_862661775780107_bdid_331013419.png",
+              "box": [
+                0.87060546875,
+                0.4365234375,
+                0.208984375,
+                0.1640625,
+                0.5872341990470886
+              ],
+              "location": [
+                26.219715696104178,
+                -29.11899334396886
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Metal"
+                },
+                "floors": "1",
+                "age": "1980\u20131999",
+                "caption": "A single-storey street block with pale walls, a dark corrugated upper fascia and shuttered or shaded openings.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "331013247",
+              "area_m2": 2484.6981304113347,
+              "image": "assets/bloemfontein/pid_862661775780107_bdid_331013247.png",
+              "box": [
+                0.364501953125,
+                0.49169921875,
+                0.16064453125,
+                0.1728515625,
+                0.43389591574668884
+              ],
+              "location": [
+                26.22058943828101,
+                -29.118534861437404
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Render",
+                  "secondary": "None"
+                },
+                "floors": "2",
+                "age": "1960\u20131979",
+                "caption": "A two-storey corner shop block with a bright green rendered upper facade, shaded shopfronts and barred windows.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
+        },
+        {
+          "id": "4052980944931812",
+          "name": "Street view 22",
+          "location": [
+            26.221518335595,
+            -29.120477143162
+          ],
+          "heading": 288.06106764644,
+          "capturedAt": "2024-12-05",
+          "creator": "Infratec2024",
+          "image": "assets/bloemfontein/4052980944931812.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=4052980944931812&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "331013311",
+              "area_m2": 929.9192610327443,
+              "image": "assets/bloemfontein/pid_4052980944931812_bdid_331013311.png",
+              "box": [
+                0.875732421875,
+                0.37353515625,
+                0.19873046875,
+                0.2646484375,
+                0.837640106678009
+              ],
+              "location": [
+                26.221846214614708,
+                -29.12037494339674
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Brick"
+                },
+                "floors": "4",
+                "age": "1960\u20131979",
+                "caption": "A corner block with grey rendered walls, projecting balconies and street-level shops.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "331013265",
+              "area_m2": 395.9442432831049,
+              "image": "assets/bloemfontein/pid_4052980944931812_bdid_331013265.png",
+              "box": [
+                0.6220703125,
+                0.34912109375,
+                0.2119140625,
+                0.4541015625,
+                0.813795804977417
+              ],
+              "location": [
+                26.221442153378902,
+                -29.12030697485836
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "8",
+                "age": "1960\u20131979",
+                "caption": "A tall pale street block with long horizontal window strips and commercial frontage at its base.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "331013139",
+              "area_m2": 2375.765181034506,
+              "image": "assets/bloemfontein/pid_4052980944931812_bdid_331013139.png",
+              "box": [
+                0.254150390625,
+                0.43505859375,
+                0.16748046875,
+                0.1630859375,
+                0.4470008909702301
+              ],
+              "location": [
+                26.221911865597725,
+                -29.120851815545148
+              ],
+              "attributes": {
+                "type": "Public",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Brick",
+                  "secondary": "Stone"
+                },
+                "floors": "2",
+                "age": "1880\u20131899",
+                "caption": "A traditional brick building with pale arched window surrounds and a formal facade, partly hidden by trees.",
                 "ageBasis": "Visual estimate",
                 "ageConfidence": "Low",
                 "floorsBasis": "Visual estimate",
@@ -13245,61 +14577,46 @@
               "source": "osm"
             }
           ]
-        }
-      ],
-      "status": "ready",
-      "footprints": "assets/auckland/footprint.geojson"
-    },
-    {
-      "id": "dubai",
-      "name": "Dubai",
-      "country": "United Arab Emirates",
-      "bbox": [
-        55.292,
-        25.254,
-        55.305,
-        25.266
-      ],
-      "panoramas": [
+        },
         {
-          "id": "1455706925673271",
-          "name": "Street view 01",
+          "id": "1097458125747211",
+          "name": "Street view 07",
           "location": [
-            55.3002056,
-            25.2641667
+            174.76028757631,
+            -36.847006797277
           ],
-          "heading": 0,
-          "capturedAt": "2019-02-20",
-          "creator": "benjaminiveagh",
-          "image": "assets/dubai/1455706925673271.jpg",
-          "sourceUrl": "https://www.mapillary.com/app/?pKey=1455706925673271&focus=photo",
+          "heading": 16.500428637081,
+          "capturedAt": "2025-09-19",
+          "creator": "ralley",
+          "image": "assets/auckland/1097458125747211.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=1097458125747211&focus=photo",
           "status": "ready",
           "buildings": [
             {
-              "id": "1268109786",
-              "area_m2": 101.09985763906391,
-              "image": "assets/dubai/pid_1455706925673271_bdid_1268109786.png",
+              "id": "292660655",
+              "area_m2": 1585.646769778546,
+              "image": "assets/auckland/pid_1097458125747211_bdid_292660655.png",
               "box": [
-                0.677734375,
-                0.4521484375,
-                0.126953125,
-                0.140625,
-                0.5643647909164429
+                0.2177734375,
+                0.39599609375,
+                0.392578125,
+                0.5166015625,
+                0.9170753955841064
               ],
               "location": [
-                55.3002865715083,
-                25.264150496165648
+                174.75996537785133,
+                -36.84708452215449
               ],
               "attributes": {
-                "type": "Public",
+                "type": "Commercial",
                 "mixUsed": "No",
                 "material": {
-                  "first": "Render",
-                  "secondary": "Stone"
+                  "first": "Concrete",
+                  "secondary": "Glass"
                 },
-                "floors": "2",
-                "age": "1880\u20131899",
-                "caption": "A low heritage-looking courtyard building with warm rendered walls, small openings and a prominent traditional wind tower.",
+                "floors": "5",
+                "age": "1980\u20131999",
+                "caption": "A multi-storey parking-like block with open horizontal concrete bays and vertical structural columns.",
                 "ageBasis": "Visual estimate",
                 "ageConfidence": "Low",
                 "floorsBasis": "Visual estimate",
@@ -13310,30 +14627,536 @@
               "source": "osm"
             },
             {
-              "id": "7573040",
-              "area_m2": 284.0131523447819,
-              "image": "assets/dubai/pid_1455706925673271_bdid_7573040.png",
+              "id": "265495463",
+              "area_m2": 909.4474446258565,
+              "image": "assets/auckland/pid_1097458125747211_bdid_265495463.png",
               "box": [
-                0.471435546875,
-                0.451171875,
-                0.14794921875,
-                0.17578125,
-                0.4489981532096863
+                0.912841796875,
+                0.4169921875,
+                0.08251953125,
+                0.380859375,
+                0.6658530235290527
               ],
               "location": [
-                55.30026986009735,
-                25.26434081493427
+                174.76056464295021,
+                -36.84740253640521
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Concrete",
+                  "secondary": "Glass"
+                },
+                "floors": "18",
+                "age": "2000\u20132019",
+                "caption": "A tall residential-looking tower with repeated balcony openings and a street-level entrance.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "24655194",
+              "area_m2": 1968.3386535568293,
+              "image": "assets/auckland/pid_1097458125747211_bdid_24655194.png",
+              "box": [
+                0.675048828125,
+                0.3125,
+                0.16943359375,
+                0.390625,
+                0.6494437456130981
+              ],
+              "location": [
+                174.76095452394668,
+                -36.84693025497835
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "14",
+                "age": "2000\u20132019",
+                "caption": "A tall light-coloured block with stacked balconies, small rectangular windows and a commercial-looking ground floor.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
+        },
+        {
+          "id": "1014874077525067",
+          "name": "Street view 13",
+          "location": [
+            174.7670053217,
+            -36.844077589734
+          ],
+          "heading": 195.91902408407,
+          "capturedAt": "2025-07-26",
+          "creator": "ralley",
+          "image": "assets/auckland/1014874077525067.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=1014874077525067&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "23904390",
+              "area_m2": 2365.078535083432,
+              "image": "assets/auckland/pid_1014874077525067_bdid_23904390.png",
+              "box": [
+                0.22802734375,
+                0.36767578125,
+                0.38671875,
+                0.4345703125,
+                0.8249654173851013
+              ],
+              "location": [
+                174.76740583567693,
+                -36.844090667748354
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Stone",
+                  "secondary": "Glass"
+                },
+                "floors": "3",
+                "age": "1880\u20131899",
+                "caption": "An ornate traditional street building with pale masonry, arched lower windows and decorative upper detailing.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "355457404",
+              "area_m2": 309.2539463470804,
+              "image": "assets/auckland/pid_1014874077525067_bdid_355457404.png",
+              "box": [
+                0.431640625,
+                0.30419921875,
+                0.083984375,
+                0.3095703125,
+                0.7089977860450745
+              ],
+              "location": [
+                174.76707304736397,
+                -36.84461006049058
+              ],
+              "attributes": {
+                "type": "Office",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "15",
+                "age": "1960\u20131979",
+                "caption": "A narrow mid-rise block with pale facade panels, repeated vertical window bays and a street-level restaurant.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "1486395920",
+              "area_m2": 10967.303052813064,
+              "image": "assets/auckland/pid_1014874077525067_bdid_1486395920.png",
+              "box": [
+                0.704833984375,
+                0.3037109375,
+                0.19677734375,
+                0.396484375,
+                0.6699119210243225
+              ],
+              "location": [
+                174.7662383155008,
+                -36.84381244070447
+              ],
+              "attributes": {
+                "type": "Office",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Glass",
+                  "secondary": "Metal"
+                },
+                "floors": "18",
+                "age": "2000\u20132019",
+                "caption": "A modern office tower with green glazing, vertical metal fins and ground-floor commercial frontage.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
+        },
+        {
+          "id": "1643326929649620",
+          "name": "Street view 15",
+          "location": [
+            174.76130828074,
+            -36.851092062173
+          ],
+          "heading": 42.612588867509,
+          "capturedAt": "2025-07-26",
+          "creator": "ralley",
+          "image": "assets/auckland/1643326929649620.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=1643326929649620&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "380531534",
+              "area_m2": 1004.5084965708153,
+              "image": "assets/auckland/pid_1643326929649620_bdid_380531534.png",
+              "box": [
+                0.644287109375,
+                0.36669921875,
+                0.33349609375,
+                0.4306640625,
+                0.7996289134025574
+              ],
+              "location": [
+                174.7616316569179,
+                -36.85106727587783
               ],
               "attributes": {
                 "type": "Public",
                 "mixUsed": "No",
                 "material": {
+                  "first": "Glass",
+                  "secondary": "Metal"
+                },
+                "floors": "3",
+                "age": "2000\u20132019",
+                "caption": "A police-marked building with reflective glazing and a dark metal-framed facade.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "632021114",
+              "area_m2": 769.9347565552886,
+              "image": "assets/auckland/pid_1643326929649620_bdid_632021114.png",
+              "box": [
+                0.140869140625,
+                0.427734375,
+                0.34423828125,
+                0.419921875,
+                0.6733747720718384
+              ],
+              "location": [
+                174.76103148235762,
+                -36.85116685552246
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "Yes",
+                "material": {
                   "first": "Render",
-                  "secondary": "Stone"
+                  "secondary": "Glass"
+                },
+                "floors": "16",
+                "age": "2000\u20132019",
+                "caption": "A tall pale block with projecting balconies above a lower street frontage, partly screened by a tree.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "14628623",
+              "area_m2": 2064.3912308552367,
+              "image": "assets/auckland/pid_1643326929649620_bdid_14628623.png",
+              "box": [
+                0.357177734375,
+                0.375,
+                0.07958984375,
+                0.2109375,
+                0.40403929352760315
+              ],
+              "location": [
+                174.76097989190148,
+                -36.850812003376795
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Metal",
+                  "secondary": "Glass"
+                },
+                "floors": "4",
+                "age": "2000\u20132019",
+                "caption": "A narrow street frontage with dark panel cladding and glazing, largely obscured by tree branches.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
+        },
+        {
+          "id": "1398411661917487",
+          "name": "Street view 17",
+          "location": [
+            174.7614534816,
+            -36.847845287627
+          ],
+          "heading": 113.82451104823,
+          "capturedAt": "2026-01-01",
+          "creator": "ralley",
+          "image": "assets/auckland/1398411661917487.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=1398411661917487&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "23904469",
+              "area_m2": 5970.579048153778,
+              "image": "assets/auckland/pid_1398411661917487_bdid_23904469.png",
+              "box": [
+                0.83056640625,
+                0.3994140625,
+                0.2001953125,
+                0.23828125,
+                0.7805520296096802
+              ],
+              "location": [
+                174.7605236107399,
+                -36.848199792805886
+              ],
+              "attributes": {
+                "type": "Office",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Glass",
+                  "secondary": "Metal"
+                },
+                "floors": "6",
+                "age": "2000\u20132019",
+                "caption": "A curved modern block with horizontal glazing bands and metal facade panels, partly hidden by a tree.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "265495464",
+              "area_m2": 487.48180316533285,
+              "image": "assets/auckland/pid_1398411661917487_bdid_265495464.png",
+              "box": [
+                0.220703125,
+                0.42724609375,
+                0.3349609375,
+                0.2978515625,
+                0.6980035901069641
+              ],
+              "location": [
+                174.76152210005594,
+                -36.847698450005474
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
                 },
                 "floors": "2",
-                "age": "1880\u20131899",
-                "caption": "A warm rendered heritage-looking frontage with decorative arches, tall timber doors and a recessed courtyard entrance.",
+                "age": "1960\u20131979",
+                "caption": "A low street block with continuous upper glazing and multiple shop signs above ground-floor entrances.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "292660658",
+              "area_m2": 991.6926913518203,
+              "image": "assets/auckland/pid_1398411661917487_bdid_292660658.png",
+              "box": [
+                0.039794921875,
+                0.396484375,
+                0.03759765625,
+                0.279296875,
+                0.6101016402244568
+              ],
+              "location": [
+                174.76111371429636,
+                -36.847534620112384
+              ],
+              "attributes": {
+                "type": "Office",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Concrete",
+                  "secondary": "Glass"
+                },
+                "floors": "18",
+                "age": "1960\u20131979",
+                "caption": "A tall pale tower with a regular grid of recessed windows and a narrow visible street-level section.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
+        },
+        {
+          "id": "1382248216180673",
+          "name": "Street view 22",
+          "location": [
+            174.76413195126,
+            -36.844760799013
+          ],
+          "heading": 15.896535652357,
+          "capturedAt": "2025-07-26",
+          "creator": "ralley",
+          "image": "assets/auckland/1382248216180673.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=1382248216180673&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "154089898",
+              "area_m2": 601.1060100005017,
+              "image": "assets/auckland/pid_1382248216180673_bdid_154089898.png",
+              "box": [
+                0.32861328125,
+                0.3046875,
+                0.2744140625,
+                0.4765625,
+                0.8094862699508667
+              ],
+              "location": [
+                174.76396329678448,
+                -36.844575178982495
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Concrete",
+                  "secondary": "Glass"
+                },
+                "floors": "15",
+                "age": "2000\u20132019",
+                "caption": "A tall pale residential-looking block with square windows, stepped upper volumes and ground-floor frontage.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "924174717",
+              "area_m2": 278.07029841214336,
+              "image": "assets/auckland/pid_1382248216180673_bdid_924174717.png",
+              "box": [
+                0.92431640625,
+                0.44482421875,
+                0.1328125,
+                0.2919921875,
+                0.47028693556785583
+              ],
+              "location": [
+                174.76419111270008,
+                -36.84505442549741
+              ],
+              "attributes": {
+                "type": "Office",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "8",
+                "age": "1920\u20131939",
+                "caption": "A traditional multi-storey corner block with large gridded windows and ground-floor commercial signs.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "28898740",
+              "area_m2": 867.4785208051312,
+              "image": "assets/auckland/pid_1382248216180673_bdid_28898740.png",
+              "box": [
+                0.115478515625,
+                0.51220703125,
+                0.16943359375,
+                0.1806640625,
+                0.44144368171691895
+              ],
+              "location": [
+                174.76377023732243,
+                -36.84497097567003
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "2",
+                "age": "1920\u20131939",
+                "caption": "A low corner commercial block with a curved pale facade, broad upper windows and a shopfront below.",
                 "ageBasis": "Visual estimate",
                 "ageConfidence": "Low",
                 "floorsBasis": "Visual estimate",
@@ -13347,7 +15170,494 @@
         }
       ],
       "status": "ready",
-      "footprints": "assets/dubai/footprint.geojson"
+      "footprints": "assets/auckland/footprint.geojson"
+    },
+    {
+      "id": "chengdu",
+      "name": "Chengdu",
+      "country": "China",
+      "bbox": [
+        104.103812,
+        30.634272,
+        104.115812,
+        30.644272
+      ],
+      "panoramas": [
+        {
+          "id": "5402743739761762",
+          "name": "Street view 03",
+          "location": [
+            104.1146301262,
+            30.63701420595
+          ],
+          "heading": 303.97935541204,
+          "capturedAt": "2022-08-05",
+          "creator": "adirricor",
+          "image": "assets/chengdu/5402743739761762.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=5402743739761762&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "1356625477",
+              "area_m2": 938.4668540395404,
+              "image": "assets/chengdu/pid_5402743739761762_bdid_1356625477.png",
+              "box": [
+                0.853759765625,
+                0.3173828125,
+                0.13525390625,
+                0.421875,
+                0.7153599262237549
+              ],
+              "location": [
+                104.11521320020043,
+                30.63700015035282
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "30",
+                "age": "2000\u20132019",
+                "caption": "A tall apartment tower with a warm rendered facade, repeated balconies and windows, partly screened by trees.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "1356625475",
+              "area_m2": 1040.532243002635,
+              "image": "assets/chengdu/pid_5402743739761762_bdid_1356625475.png",
+              "box": [
+                0.7001953125,
+                0.30517578125,
+                0.1357421875,
+                0.3583984375,
+                0.6347953081130981
+              ],
+              "location": [
+                104.11465993767972,
+                30.637455678727406
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "30",
+                "age": "2000\u20132019",
+                "caption": "A tall residential tower with pale rendered walls, vertical window strips and projecting balconies.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "53b19b29-48ac-4a58-a1fa-65d322da7adf",
+              "area_m2": 1220.3751222920107,
+              "image": "assets/chengdu/pid_5402743739761762_bdid_53b19b29-48ac-4a58-a1fa-65d322da7adf.png",
+              "box": [
+                0.202880859375,
+                0.28564453125,
+                0.17041015625,
+                0.3193359375,
+                0.48780858516693115
+              ],
+              "location": [
+                104.11420570585419,
+                30.636769240789032
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "30",
+                "age": "2000\u20132019",
+                "caption": "A broad apartment block with a regular grid of windows and a warm rendered facade above tree-lined grounds.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "overture"
+            }
+          ]
+        },
+        {
+          "id": "792372032128306",
+          "name": "Street view 07",
+          "location": [
+            104.11556538896,
+            30.639768691431
+          ],
+          "heading": 40.375480075467,
+          "capturedAt": "2022-08-05",
+          "creator": "adirricor",
+          "image": "assets/chengdu/792372032128306.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=792372032128306&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "1356635555",
+              "area_m2": 3148.6647046405124,
+              "image": "assets/chengdu/pid_792372032128306_bdid_1356635555.png",
+              "box": [
+                0.65673828125,
+                0.365234375,
+                0.146484375,
+                0.267578125,
+                0.8606470227241516
+              ],
+              "location": [
+                104.11635475985854,
+                30.63978657302594
+              ],
+              "attributes": {
+                "type": "Office",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Metal",
+                  "secondary": "Glass"
+                },
+                "floors": "6",
+                "age": "2000\u20132019",
+                "caption": "A rectangular mid-rise block with pale metal facade panels and horizontal window strips, partly screened by trees.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "1356635551",
+              "area_m2": 529.5612231368294,
+              "image": "assets/chengdu/pid_792372032128306_bdid_1356635551.png",
+              "box": [
+                0.221923828125,
+                0.294921875,
+                0.21923828125,
+                0.447265625,
+                0.6711371541023254
+              ],
+              "location": [
+                104.11517263219736,
+                30.63992028344732
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "28",
+                "age": "2000\u20132019",
+                "caption": "A tall apartment block with projecting bays, warm rendered walls and shops along its lower levels.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "1356635554",
+              "area_m2": 1105.616689318025,
+              "image": "assets/chengdu/pid_792372032128306_bdid_1356635554.png",
+              "box": [
+                0.877197265625,
+                0.45068359375,
+                0.18505859375,
+                0.2470703125,
+                0.3730127513408661
+              ],
+              "location": [
+                104.1156725889866,
+                30.639326778976443
+              ],
+              "attributes": {
+                "type": "Public",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "4",
+                "age": "2000\u20132019",
+                "caption": "A low institutional-looking block with horizontal window bands behind a gated tree-lined frontage.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
+        },
+        {
+          "id": "639003567720085",
+          "name": "Street view 17",
+          "location": [
+            104.107965732,
+            30.642457552955
+          ],
+          "heading": 31.357766628352,
+          "capturedAt": "2022-08-05",
+          "creator": "adirricor",
+          "image": "assets/chengdu/639003567720085.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=639003567720085&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "1356625409",
+              "area_m2": 1629.0243055620351,
+              "image": "assets/chengdu/pid_639003567720085_bdid_1356625409.png",
+              "box": [
+                0.754638671875,
+                0.44775390625,
+                0.25146484375,
+                0.1611328125,
+                0.6226892471313477
+              ],
+              "location": [
+                104.10826796381303,
+                30.64219616955444
+              ],
+              "attributes": {
+                "type": "Public",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "3",
+                "age": "2000\u20132019",
+                "caption": "A low school-like block with pale and yellow rendered walls, horizontal windows and a fenced frontage.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "1356625422",
+              "area_m2": 407.97003482250113,
+              "image": "assets/chengdu/pid_639003567720085_bdid_1356625422.png",
+              "box": [
+                0.233642578125,
+                0.30029296875,
+                0.23583984375,
+                0.4638671875,
+                0.4961256682872772
+              ],
+              "location": [
+                104.10764755413373,
+                30.64259223808933
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "28",
+                "age": "2000\u20132019",
+                "caption": "A tall apartment block with repeated window bays, warm rendered walls and commercial frontages at its base.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "eff96374-5416-405c-9a85-1778b43ff456",
+              "area_m2": 779.6570172809995,
+              "image": "assets/chengdu/pid_639003567720085_bdid_eff96374-5416-405c-9a85-1778b43ff456.png",
+              "box": [
+                0.074462890625,
+                0.35888671875,
+                0.10302734375,
+                0.3603515625,
+                0.49482104182243347
+              ],
+              "location": [
+                104.10748332746539,
+                30.642389030016673
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "30",
+                "age": "2000\u20132019",
+                "caption": "A tall residential tower with narrow vertical window strips and a warm rendered facade; strong sunlight limits detail.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "overture"
+            }
+          ]
+        },
+        {
+          "id": "187203650506502",
+          "name": "Street view 18",
+          "location": [
+            104.10589517771,
+            30.641876853929
+          ],
+          "heading": 138.77883027507,
+          "capturedAt": "2022-10-29",
+          "creator": "adirricor",
+          "image": "assets/chengdu/187203650506502.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=187203650506502&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "1341567520",
+              "area_m2": 11383.19846404213,
+              "image": "assets/chengdu/pid_187203650506502_bdid_1341567520.png",
+              "box": [
+                0.649658203125,
+                0.294921875,
+                0.15478515625,
+                0.427734375,
+                0.6119177341461182
+              ],
+              "location": [
+                104.10602180444799,
+                30.640991784066202
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Concrete",
+                  "secondary": "None"
+                },
+                "floors": "30",
+                "age": "2000\u20132019",
+                "caption": "An unfinished high-rise with exposed concrete floor slabs and open structural bays. Its eventual use is visually estimated.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "1356625419",
+              "area_m2": 408.03605938431684,
+              "image": "assets/chengdu/pid_187203650506502_bdid_1356625419.png",
+              "box": [
+                0.10302734375,
+                0.2998046875,
+                0.0966796875,
+                0.36328125,
+                0.5532271265983582
+              ],
+              "location": [
+                104.10592050479066,
+                30.64217871443735
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "30",
+                "age": "2000\u20132019",
+                "caption": "A tall apartment tower with warm rendered walls, narrow window bays and projecting corner volumes.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "1356625420",
+              "area_m2": 408.0422107156771,
+              "image": "assets/chengdu/pid_187203650506502_bdid_1356625420.png",
+              "box": [
+                0.2880859375,
+                0.22900390625,
+                0.123046875,
+                0.3408203125,
+                0.4599158763885498
+              ],
+              "location": [
+                104.10625820683926,
+                30.641897719895592
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "30",
+                "age": "2000\u20132019",
+                "caption": "A tall apartment block with pale and warm facade sections, repeated windows and a commercial-looking lower frontage.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
+        }
+      ],
+      "status": "ready",
+      "footprints": "assets/chengdu/footprint.geojson"
     },
     {
       "id": "bogota",
@@ -13905,6 +16215,478 @@
                 "floors": "3",
                 "age": "1920\u20131939",
                 "caption": "A weathered residential-looking masonry frontage with small barred windows and decorative wall details.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
+        },
+        {
+          "id": "1512069923432869",
+          "name": "Street view 11",
+          "location": [
+            -74.076131026232,
+            4.6032561671568
+          ],
+          "heading": 188.00134980967,
+          "capturedAt": "2025-11-11",
+          "creator": "cgalindop",
+          "image": "assets/bogota/1512069923432869.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=1512069923432869&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "537468860",
+              "area_m2": 183.8923451530584,
+              "image": "assets/bogota/pid_1512069923432869_bdid_537468860.png",
+              "box": [
+                0.8056640625,
+                0.35205078125,
+                0.279296875,
+                0.5771484375,
+                0.7474173903465271
+              ],
+              "location": [
+                -74.07624410016842,
+                4.603289733263334
+              ],
+              "attributes": {
+                "type": "Office",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Concrete",
+                  "secondary": "Glass"
+                },
+                "floors": "9",
+                "age": "1960\u20131979",
+                "caption": "A mid-rise street block with horizontal window bands, concrete facade strips and shops at ground level.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "18682108",
+              "area_m2": 848.2915311971237,
+              "image": "assets/bogota/pid_1512069923432869_bdid_18682108.png",
+              "box": [
+                0.363037109375,
+                0.4033203125,
+                0.19677734375,
+                0.171875,
+                0.6587105989456177
+              ],
+              "location": [
+                -74.07597175281586,
+                4.602837816490161
+              ],
+              "attributes": {
+                "type": "Office",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Concrete",
+                  "secondary": "Glass"
+                },
+                "floors": "7",
+                "age": "1960\u20131979",
+                "caption": "A long block with a regular concrete grid, closely spaced windows and a commercial-looking base.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "537468859",
+              "area_m2": 270.8819604268782,
+              "image": "assets/bogota/pid_1512069923432869_bdid_537468859.png",
+              "box": [
+                0.9951171875,
+                0.45849609375,
+                0.0771484375,
+                0.0986328125,
+                0.5681284666061401
+              ],
+              "location": [
+                -74.07613595000109,
+                4.603555000002411
+              ],
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Glass",
+                  "secondary": "Metal"
+                },
+                "floors": "3",
+                "age": "1980\u20131999",
+                "caption": "A small dark-glazed street block with metal facade framing, partly obscured by street stalls.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
+        },
+        {
+          "id": "375215677165077",
+          "name": "Street view 16",
+          "location": [
+            -74.072112090766,
+            4.59563334242
+          ],
+          "heading": 131.24379224172,
+          "capturedAt": "2019-05-26",
+          "creator": "ejegg",
+          "image": "assets/bogota/375215677165077.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=375215677165077&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "705276010",
+              "area_m2": 141.3614421918299,
+              "image": "assets/bogota/pid_375215677165077_bdid_705276010.png",
+              "box": [
+                0.986083984375,
+                0.46044921875,
+                0.41943359375,
+                0.4951171875,
+                0.8581002950668335
+              ],
+              "location": [
+                -74.07216312745194,
+                4.595691469962543
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "None"
+                },
+                "floors": "1",
+                "age": "1900\u20131919",
+                "caption": "A single-storey traditional house with a dark rendered facade, pale window surrounds and a tiled roof.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "740014101",
+              "area_m2": 50.88131396927091,
+              "image": "assets/bogota/pid_375215677165077_bdid_740014101.png",
+              "box": [
+                0.457763671875,
+                0.35693359375,
+                0.36865234375,
+                0.5009765625,
+                0.8330662250518799
+              ],
+              "location": [
+                -74.07205899864375,
+                4.595614767209167
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Stone"
+                },
+                "floors": "1",
+                "age": "1900\u20131919",
+                "caption": "A low traditional street house with blue and pale rendered walls, a timber door and a tiled roof.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "740014100",
+              "area_m2": 57.201356468951815,
+              "image": "assets/bogota/pid_375215677165077_bdid_740014100.png",
+              "box": [
+                0.287353515625,
+                0.43701171875,
+                0.11376953125,
+                0.2744140625,
+                0.40496042370796204
+              ],
+              "location": [
+                -74.07201715016204,
+                4.595682400134341
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Stone"
+                },
+                "floors": "1",
+                "age": "1900\u20131919",
+                "caption": "A low traditional house with white rendered walls, barred timber windows and a stone-textured base.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
+        },
+        {
+          "id": "1391202354612178",
+          "name": "Street view 20",
+          "location": [
+            -74.074830452094,
+            4.6022212765042
+          ],
+          "heading": 197.17535245966,
+          "capturedAt": "2019-05-26",
+          "creator": "ejegg",
+          "image": "assets/bogota/1391202354612178.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=1391202354612178&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "1369407890",
+              "area_m2": 124.96296018607921,
+              "image": "assets/bogota/pid_1391202354612178_bdid_1369407890.png",
+              "box": [
+                0.886474609375,
+                0.42236328125,
+                0.14404296875,
+                0.3017578125,
+                0.841352105140686
+              ],
+              "location": [
+                -74.07484448519014,
+                4.602409468054314
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Concrete",
+                  "secondary": "Glass"
+                },
+                "floors": "7",
+                "age": "1960\u20131979",
+                "caption": "A broad street block with repeated windows, pale concrete walls and shops below, partly screened by a tree.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "702301892",
+              "area_m2": 673.890013851151,
+              "image": "assets/bogota/pid_1391202354612178_bdid_702301892.png",
+              "box": [
+                0.49853515625,
+                0.33154296875,
+                0.4150390625,
+                0.6630859375,
+                0.6554338932037354
+              ],
+              "location": [
+                -74.07490225171462,
+                4.602042896741079
+              ],
+              "attributes": {
+                "type": "Office",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Concrete",
+                  "secondary": "Glass"
+                },
+                "floors": "12",
+                "age": "1960\u20131979",
+                "caption": "A tall street block with a regular grid of windows, concrete facade bands and a commercial ground floor.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "1369407893",
+              "area_m2": 53.47052356146438,
+              "image": "assets/bogota/pid_1391202354612178_bdid_1369407893.png",
+              "box": [
+                0.09716796875,
+                0.44140625,
+                0.1171875,
+                0.279296875,
+                0.5262155532836914
+              ],
+              "location": [
+                -74.07470706816397,
+                4.602334739174502
+              ],
+              "attributes": {
+                "type": "Office",
+                "mixUsed": "Yes",
+                "material": {
+                  "first": "Glass",
+                  "secondary": "Metal"
+                },
+                "floors": "12",
+                "age": "1980\u20131999",
+                "caption": "A narrow mid-rise block with horizontal glazing bands and pale facade strips, partly screened by a palm.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            }
+          ]
+        },
+        {
+          "id": "1373923326321553",
+          "name": "Street view 25",
+          "location": [
+            -74.072793736636,
+            4.5945199808811
+          ],
+          "heading": 133.90361606795,
+          "capturedAt": "2019-05-26",
+          "creator": "ejegg",
+          "image": "assets/bogota/1373923326321553.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=1373923326321553&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "409878606",
+              "area_m2": 318.4746879913224,
+              "image": "assets/bogota/pid_1373923326321553_bdid_409878606.png",
+              "box": [
+                0.55712890625,
+                0.39794921875,
+                0.31640625,
+                0.5556640625,
+                0.8449991941452026
+              ],
+              "location": [
+                -74.07269757045457,
+                4.5943998674086615
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Wood"
+                },
+                "floors": "1",
+                "age": "1900\u20131919",
+                "caption": "A single-storey traditional house with white walls, dark timber shutters and exposed roof-eave brackets.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "409878613",
+              "area_m2": 522.6623418863865,
+              "image": "assets/bogota/pid_1373923326321553_bdid_409878613.png",
+              "box": [
+                0.899658203125,
+                0.48876953125,
+                0.30908203125,
+                0.3681640625,
+                0.8378438949584961
+              ],
+              "location": [
+                -74.07297530866119,
+                4.594516255976513
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "None"
+                },
+                "floors": "1",
+                "age": "1900\u20131919",
+                "caption": "A low traditional street house with cream walls, orange decorative outlines and barred windows.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              },
+              "source": "osm"
+            },
+            {
+              "id": "9720351",
+              "area_m2": 596.8519501783634,
+              "image": "assets/bogota/pid_1373923326321553_bdid_9720351.png",
+              "box": [
+                0.100341796875,
+                0.53857421875,
+                0.19287109375,
+                0.2568359375,
+                0.5618451237678528
+              ],
+              "location": [
+                -74.07299732678922,
+                4.594738020368656
+              ],
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Wood"
+                },
+                "floors": "1",
+                "age": "1900\u20131919",
+                "caption": "A long single-storey traditional house with red walls, dark timber shutters and a tiled roof.",
                 "ageBasis": "Visual estimate",
                 "ageConfidence": "Low",
                 "floorsBasis": "Visual estimate",
