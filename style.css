@@ -49,6 +49,9 @@ summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
 
 #city-map .view-marker,#city-map .building-marker{z-index:3}
 
-.site-logo{position:absolute;top:28px;right:28px;z-index:6;width:min(280px,32vw);pointer-events:none;mix-blend-mode:screen}.site-logo img{display:block;width:100%;height:auto;filter:invert(1);opacity:.85}@media(max-width:700px){.site-logo{top:18px;right:16px;width:180px;max-width:42vw}}
+.site-logo{position:absolute;top:24px;left:24px;z-index:6;display:block;width:180px;aspect-ratio:1108/362;overflow:hidden;mix-blend-mode:screen;opacity:.85;transition:opacity .2s}.site-logo:hover{opacity:1}.site-logo img{display:block;height:100%;width:auto;max-width:none;filter:invert(1)}
+.partner-logos{position:absolute;top:24px;right:24px;z-index:6;display:flex;align-items:center;gap:18px;pointer-events:none;opacity:.85}.nus-logo{display:block;height:58px;width:auto;filter:invert(1)}.ual-logo{display:block;width:126px;aspect-ratio:713/362;overflow:hidden;mix-blend-mode:screen}.ual-logo img{display:block;height:100%;width:auto;max-width:none;transform:translateX(-62.69%);filter:invert(1)}
+.city-picker,.city-controls{top:104px}.type-controls{top:168px}
+@media(max-width:700px){.site-logo{top:16px;left:16px;width:138px}.partner-logos{top:16px;right:16px;gap:12px}.nus-logo{height:42px}.ual-logo{width:88px}.city-picker,.city-controls{top:80px}.type-controls{top:140px}}
 
 @media(max-width:700px) and (orientation:portrait){.inspector{left:12px;right:12px;top:auto;bottom:64px;width:calc(100% - 24px);max-height:50svh;transform:none}.building-image img{height:210px}.attribute-grid{grid-template-columns:1fr 1fr}}
