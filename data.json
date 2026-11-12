@@ -16707,10 +16707,10 @@
       "name": "Beijing",
       "country": "China",
       "bbox": [
-        116.406531,
-        40.040885,
-        116.418531,
-        40.050885
+        116.399531,
+        40.036885,
+        116.425531,
+        40.054885
       ],
       "panoramas": [
         {
@@ -17061,6 +17061,596 @@
                 "ageConfidence": "Low",
                 "floorsBasis": "Visual estimate",
                 "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            }
+          ]
+        },
+        {
+          "id": "711261005193082",
+          "name": "Street view 04",
+          "location": [
+            116.4117688559,
+            40.04575502181
+          ],
+          "heading": 15.370302145928,
+          "capturedAt": "2025-05-30",
+          "creator": "Cicero101",
+          "image": "assets/beijing/711261005193082.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=711261005193082&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "279529269",
+              "area_m2": 906.1440631785528,
+              "image": "assets/beijing/pid_711261005193082_bdid_279529269.png",
+              "box": [
+                0.4814453125,
+                0.32373046875,
+                0.1201171875,
+                0.3857421875,
+                0.8424744009971619
+              ],
+              "location": [
+                116.41183334241597,
+                40.04622839662018
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "25",
+                "age": "2000\u20132019",
+                "caption": "A tall apartment tower with pale walls and a regular grid of glazed balconies, partly screened by trees.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Mapped building levels",
+                "floorsConfidence": "Medium",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "279529271",
+              "area_m2": 1048.9561866778579,
+              "image": "assets/beijing/pid_711261005193082_bdid_279529271.png",
+              "box": [
+                0.614990234375,
+                0.3701171875,
+                0.05908203125,
+                0.2734375,
+                0.4707690477371216
+              ],
+              "location": [
+                116.41256773184351,
+                40.04622551562593
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "25",
+                "age": "2000\u20132019",
+                "caption": "A light-coloured residential block with recessed openings and closely spaced windows.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Mapped building levels",
+                "floorsConfidence": "Medium",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "279529266",
+              "area_m2": 938.4198049482449,
+              "image": "assets/beijing/pid_711261005193082_bdid_279529266.png",
+              "box": [
+                0.239013671875,
+                0.3203125,
+                0.09814453125,
+                0.34765625,
+                0.4670916795730591
+              ],
+              "location": [
+                116.41119568708355,
+                40.04588785025443
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "25",
+                "age": "2000\u20132019",
+                "caption": "A residential tower with projecting glazed bays above a tree-lined frontage.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Mapped building levels",
+                "floorsConfidence": "Medium",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            }
+          ]
+        },
+        {
+          "id": "656049917416351",
+          "name": "Street view 05",
+          "location": [
+            116.41092130329,
+            40.046070754231
+          ],
+          "heading": 18.554827639714,
+          "capturedAt": "2025-05-30",
+          "creator": "Cicero101",
+          "image": "assets/beijing/656049917416351.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=656049917416351&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "279529266",
+              "area_m2": 938.4198049482449,
+              "image": "assets/beijing/pid_656049917416351_bdid_279529266.png",
+              "box": [
+                0.790283203125,
+                0.2900390625,
+                0.26904296875,
+                0.541015625,
+                0.8311337232589722
+              ],
+              "location": [
+                116.41119568708355,
+                40.04588785025443
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Tile",
+                  "secondary": "Glass"
+                },
+                "floors": "25",
+                "age": "2000\u20132019",
+                "caption": "A close view of a residential tower with pale tiled walls, a darker base and vertically stacked bay windows.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Mapped building levels",
+                "floorsConfidence": "Medium",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "279529264",
+              "area_m2": 966.1559717851655,
+              "image": "assets/beijing/pid_656049917416351_bdid_279529264.png",
+              "box": [
+                0.0419921875,
+                0.3134765625,
+                0.123046875,
+                0.33203125,
+                0.5278221368789673
+              ],
+              "location": [
+                116.41055038562617,
+                40.045580985141385
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "25",
+                "age": "2000\u20132019",
+                "caption": "A tall residential building with pale walls and two stepped volumes, seen beyond trees.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Mapped building levels",
+                "floorsConfidence": "Medium",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "279529269",
+              "area_m2": 906.1440631785528,
+              "image": "assets/beijing/pid_656049917416351_bdid_279529269.png",
+              "box": [
+                0.633544921875,
+                0.30615234375,
+                0.04541015625,
+                0.1689453125,
+                0.45210739970207214
+              ],
+              "location": [
+                116.41183334241597,
+                40.04622839662018
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "25",
+                "age": "2000\u20132019",
+                "caption": "A narrow view of a residential tower with projecting balconies and repeated window bays.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Mapped building levels",
+                "floorsConfidence": "Medium",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            }
+          ]
+        },
+        {
+          "id": "683371437860386",
+          "name": "Street view 06",
+          "location": [
+            116.41371990121,
+            40.043952095071
+          ],
+          "heading": 128.04442682145,
+          "capturedAt": "2025-05-30",
+          "creator": "Cicero101",
+          "image": "assets/beijing/683371437860386.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=683371437860386&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "279529313",
+              "area_m2": 1059.3842409894007,
+              "image": "assets/beijing/pid_683371437860386_bdid_279529313.png",
+              "box": [
+                0.570556640625,
+                0.36083984375,
+                0.07958984375,
+                0.2861328125,
+                0.7751665711402893
+              ],
+              "location": [
+                116.41410843509237,
+                40.0432382345951
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "25",
+                "age": "2000\u20132019",
+                "caption": "A tall pale apartment block with a recessed vertical strip of balconies.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Mapped building levels",
+                "floorsConfidence": "Medium",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "279529300",
+              "area_m2": 886.0235597753342,
+              "image": "assets/beijing/pid_683371437860386_bdid_279529300.png",
+              "box": [
+                0.09619140625,
+                0.32470703125,
+                0.19140625,
+                0.2822265625,
+                0.5944922566413879
+              ],
+              "location": [
+                116.4134355101579,
+                40.04428276593724
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "14",
+                "age": "2000\u20132019",
+                "caption": "A residential block with horizontal bands of glazed balconies and vertical elements above the roofline.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Mapped building levels",
+                "floorsConfidence": "Medium",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "279529301",
+              "area_m2": 910.3432223636011,
+              "image": "assets/beijing/pid_683371437860386_bdid_279529301.png",
+              "box": [
+                0.88232421875,
+                0.4052734375,
+                0.2646484375,
+                0.30078125,
+                0.36022496223449707
+              ],
+              "location": [
+                116.41339769813646,
+                40.043838271288166
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Office",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Concrete",
+                  "secondary": "Glass"
+                },
+                "floors": "3",
+                "age": "2000\u20132019",
+                "caption": "A low building with tall pale columns, recessed glazing and a parking area in front.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            }
+          ]
+        },
+        {
+          "id": "10030093200439482",
+          "name": "Street view 07",
+          "location": [
+            116.4127601579,
+            40.045698674853
+          ],
+          "heading": 354.77369391991,
+          "capturedAt": "2025-05-27",
+          "creator": "Cicero101",
+          "image": "assets/beijing/10030093200439482.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=10030093200439482&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "279529283",
+              "area_m2": 1007.5467640507691,
+              "image": "assets/beijing/pid_10030093200439482_bdid_279529283.png",
+              "box": [
+                0.90673828125,
+                0.33154296875,
+                0.099609375,
+                0.2255859375,
+                0.8382214307785034
+              ],
+              "location": [
+                116.41323929416683,
+                40.0451430707651
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "25",
+                "age": "2000\u20132019",
+                "caption": "A tall apartment block with alternating vertical window bands and a landscaped base.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Mapped building levels",
+                "floorsConfidence": "Medium",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "279529273",
+              "area_m2": 912.4203046123343,
+              "image": "assets/beijing/pid_10030093200439482_bdid_279529273.png",
+              "box": [
+                0.6357421875,
+                0.3212890625,
+                0.0693359375,
+                0.23828125,
+                0.6447223424911499
+              ],
+              "location": [
+                116.41330088606307,
+                40.046219822785076
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "25",
+                "age": "2000\u20132019",
+                "caption": "A pale residential tower with repeated glazed bays, seen above garden trees.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Mapped building levels",
+                "floorsConfidence": "Medium",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "3f3fb574-aabf-477a-baa8-4a8e94088088",
+              "area_m2": 127.654424425316,
+              "image": "assets/beijing/pid_10030093200439482_bdid_3f3fb574-aabf-477a-baa8-4a8e94088088.png",
+              "box": [
+                0.7021484375,
+                0.39306640625,
+                0.0625,
+                0.1357421875,
+                0.4660870134830475
+              ],
+              "location": [
+                116.41332417726359,
+                40.0458502772663
+              ],
+              "source": "overture",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "20",
+                "age": "2000\u20132019",
+                "caption": "A wide light-coloured apartment block with a regular window grid, partly screened by greenery.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            }
+          ]
+        },
+        {
+          "id": "450215968184382",
+          "name": "Street view 08",
+          "location": [
+            116.41109976671,
+            40.044293873163
+          ],
+          "heading": 144.23840405888,
+          "capturedAt": "2025-05-30",
+          "creator": "Cicero101",
+          "image": "assets/beijing/450215968184382.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=450215968184382&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "1381160913",
+              "area_m2": 869.7841736296098,
+              "image": "assets/beijing/pid_450215968184382_bdid_1381160913.png",
+              "box": [
+                0.166015625,
+                0.40673828125,
+                0.255859375,
+                0.2998046875,
+                0.7097280025482178
+              ],
+              "location": [
+                116.41116659937333,
+                40.044518023479334
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Commercial",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "2",
+                "age": "2000\u20132019",
+                "caption": "A two-storey row of street shops and restaurants with signs above glazed entrances.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "238408532",
+              "area_m2": 389.67648818771465,
+              "image": "assets/beijing/pid_450215968184382_bdid_238408532.png",
+              "box": [
+                0.712646484375,
+                0.37451171875,
+                0.09814453125,
+                0.2626953125,
+                0.6324782967567444
+              ],
+              "location": [
+                116.41070324998391,
+                40.04374315005798
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Brick",
+                  "secondary": "Glass"
+                },
+                "floors": "17",
+                "age": "2000\u20132019",
+                "caption": "A red-toned apartment building with repeated rectangular windows, partly obscured by street trees.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "279529296",
+              "area_m2": 964.9412936686517,
+              "image": "assets/beijing/pid_450215968184382_bdid_279529296.png",
+              "box": [
+                0.40234375,
+                0.322265625,
+                0.1318359375,
+                0.33203125,
+                0.5344861149787903
+              ],
+              "location": [
+                116.41177404999641,
+                40.044175800514
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Tile",
+                  "secondary": "Glass"
+                },
+                "floors": "14",
+                "age": "2000\u20132019",
+                "caption": "A pale apartment tower with a largely blank central wall and narrow window bands on its sides.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Mapped building levels",
+                "floorsConfidence": "Medium",
                 "source": "GPT visual inference \u00b7 image reviewed",
                 "verified": false
               }
