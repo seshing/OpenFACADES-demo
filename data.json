@@ -16701,6 +16701,375 @@
       ],
       "status": "ready",
       "footprints": "assets/bogota/footprint.geojson"
+    },
+    {
+      "id": "beijing",
+      "name": "Beijing",
+      "country": "China",
+      "bbox": [
+        116.406531,
+        40.040885,
+        116.418531,
+        40.050885
+      ],
+      "panoramas": [
+        {
+          "id": "1443281653509073",
+          "name": "Street view 02",
+          "location": [
+            116.4135775778,
+            40.044807048995
+          ],
+          "heading": 86.380690017509,
+          "capturedAt": "2025-05-20",
+          "creator": "Cicero101",
+          "image": "assets/beijing/1443281653509073.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=1443281653509073&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "279529288",
+              "area_m2": 959.1285981394647,
+              "image": "assets/beijing/pid_1443281653509073_bdid_279529288.png",
+              "box": [
+                0.37841796875,
+                0.33642578125,
+                0.17578125,
+                0.3642578125,
+                0.8253999948501587
+              ],
+              "location": [
+                116.413994535369,
+                40.045079978026706
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "14",
+                "age": "2000\u20132019",
+                "caption": "A pale apartment block with projecting glazed bays and trees along its base.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "OSM building levels",
+                "floorsConfidence": "Medium",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "279529283",
+              "area_m2": 1007.5467640507691,
+              "image": "assets/beijing/pid_1443281653509073_bdid_279529283.png",
+              "box": [
+                0.1484375,
+                0.31494140625,
+                0.154296875,
+                0.4208984375,
+                0.7856608629226685
+              ],
+              "location": [
+                116.41323929416683,
+                40.0451430707651
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "25",
+                "age": "2000\u20132019",
+                "caption": "A tall residential tower with repeated balconies and a pale exterior.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "OSM building levels",
+                "floorsConfidence": "Medium",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "1390026702",
+              "area_m2": 273.875889677505,
+              "image": "assets/beijing/pid_1443281653509073_bdid_1390026702.png",
+              "box": [
+                0.76953125,
+                0.34375,
+                0.15234375,
+                0.1484375,
+                0.7828941941261292
+              ],
+              "location": [
+                116.41353671418544,
+                40.04469512500555
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "14",
+                "age": "2000\u20132019",
+                "caption": "A wide apartment block with vertical facade bands, partly hidden by a low wall.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            }
+          ]
+        },
+        {
+          "id": "1854268818449573",
+          "name": "Street view 09",
+          "location": [
+            116.41450868763,
+            40.045956672352
+          ],
+          "heading": 314.52683458819,
+          "capturedAt": "2025-05-27",
+          "creator": "Cicero101",
+          "image": "assets/beijing/1854268818449573.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=1854268818449573&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "1389998036",
+              "area_m2": 418.41896493037615,
+              "image": "assets/beijing/pid_1854268818449573_bdid_1389998036.png",
+              "box": [
+                0.61181640625,
+                0.38720703125,
+                0.2783203125,
+                0.3037109375,
+                0.5886815786361694
+              ],
+              "location": [
+                116.41447959782971,
+                40.046197728106215
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "25",
+                "age": "2000\u20132019",
+                "caption": "A light apartment block with repeated windows and a shaded entrance beside a courtyard.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "OSM building levels",
+                "floorsConfidence": "Medium",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "279529290",
+              "area_m2": 1077.4295712113978,
+              "image": "assets/beijing/pid_1854268818449573_bdid_279529290.png",
+              "box": [
+                0.116943359375,
+                0.46875,
+                0.09716796875,
+                0.11328125,
+                0.45952969789505005
+              ],
+              "location": [
+                116.41457216268616,
+                40.04552182904311
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Public",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Brick",
+                  "secondary": "Glass"
+                },
+                "floors": "2",
+                "age": "2000\u20132019",
+                "caption": "A low kindergarten building with a warm-toned facade and regularly spaced windows.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "1389998035",
+              "area_m2": 1049.561471779812,
+              "image": "assets/beijing/pid_1854268818449573_bdid_1389998035.png",
+              "box": [
+                0.418701171875,
+                0.431640625,
+                0.10302734375,
+                0.189453125,
+                0.4496684968471527
+              ],
+              "location": [
+                116.41409711627918,
+                40.0461113296911
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Tile",
+                  "secondary": "Glass"
+                },
+                "floors": "25",
+                "age": "2000\u20132019",
+                "caption": "A dark-faced apartment block with rectangular windows, partly screened by mature trees.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "OSM building levels",
+                "floorsConfidence": "Medium",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            }
+          ]
+        },
+        {
+          "id": "1402936410851884",
+          "name": "Street view 13",
+          "location": [
+            116.41350220624,
+            40.044994417205
+          ],
+          "heading": 214.40425193239,
+          "capturedAt": "2025-05-28",
+          "creator": "Cicero101",
+          "image": "assets/beijing/1402936410851884.jpg",
+          "sourceUrl": "https://www.mapillary.com/app/?pKey=1402936410851884&focus=photo",
+          "status": "ready",
+          "buildings": [
+            {
+              "id": "279529288",
+              "area_m2": 959.1285981394647,
+              "image": "assets/beijing/pid_1402936410851884_bdid_279529288.png",
+              "box": [
+                0.08935546875,
+                0.3232421875,
+                0.15234375,
+                0.45703125,
+                0.7960568070411682
+              ],
+              "location": [
+                116.413994535369,
+                40.045079978026706
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Tile",
+                  "secondary": "Glass"
+                },
+                "floors": "14",
+                "age": "2000\u20132019",
+                "caption": "A narrow apartment elevation with a dark tiled central wall and windows along its edges.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "OSM building levels",
+                "floorsConfidence": "Medium",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "279529283",
+              "area_m2": 1007.5467640507691,
+              "image": "assets/beijing/pid_1402936410851884_bdid_279529283.png",
+              "box": [
+                0.744873046875,
+                0.2939453125,
+                0.26025390625,
+                0.490234375,
+                0.6566076874732971
+              ],
+              "location": [
+                116.41323929416683,
+                40.0451430707651
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "25",
+                "age": "2000\u20132019",
+                "caption": "A tall apartment block with stacked balconies and glazed bays above a landscaped frontage.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "OSM building levels",
+                "floorsConfidence": "Medium",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            },
+            {
+              "id": "1390026702",
+              "area_m2": 273.875889677505,
+              "image": "assets/beijing/pid_1402936410851884_bdid_1390026702.png",
+              "box": [
+                0.409423828125,
+                0.41259765625,
+                0.13818359375,
+                0.1923828125,
+                0.4091859459877014
+              ],
+              "location": [
+                116.41353671418544,
+                40.04469512500555
+              ],
+              "source": "osm",
+              "attributes": {
+                "type": "Residential",
+                "mixUsed": "No",
+                "material": {
+                  "first": "Render",
+                  "secondary": "Glass"
+                },
+                "floors": "14",
+                "age": "2000\u20132019",
+                "caption": "A broad residential block with pale vertical facade bands behind trees.",
+                "ageBasis": "Visual estimate",
+                "ageConfidence": "Low",
+                "floorsBasis": "Visual estimate",
+                "floorsConfidence": "Low",
+                "source": "GPT visual inference \u00b7 image reviewed",
+                "verified": false
+              }
+            }
+          ]
+        }
+      ],
+      "status": "ready",
+      "footprints": "assets/beijing/footprint.geojson"
     }
   ],
   "taxonomy": {
